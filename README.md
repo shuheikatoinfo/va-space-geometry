@@ -136,7 +136,7 @@ caches). Python dependency versions are pinned in [`requirements.txt`](requireme
 | ReDimNet-b2 | torch.hub `IDRnD/ReDimNet` (`model_name=b2, train_type=ptn`) | ckpt `b2-vox2-ptn.pt` |
 | JP-HuBERT (layer-mean) | HF `reazon-research/japanese-hubert-base-k2` | `a9f26026165f8b80256f0aeecee53dedf81abce1` |
 | jxvector | torch.hub `sarulab-speech/xvector_jtubespeech` | ckpt `xvector.pth` |
-| animeva | `litagin/anime_speaker_embedding` (pip package `anime_speaker_embedding`) | current litagin release (not version-pinned) |
+| animeva | `litagin/anime_speaker_embedding` (pip package `anime_speaker_embedding`) | `0.2.1` (pinned in [`requirements.txt`](requirements.txt)) |
 
 Ensembles are embedding-level fusions of the above: **SV-4** = {x-vector,
 ECAPA-TDNN, CAM++, ReDimNet-b2}; **all-6** = {x-vector, ECAPA-TDNN, WavLM, CAM++,

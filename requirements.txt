@@ -30,6 +30,7 @@ tqdm==4.67.3
 
 # ---- Optional: additional encoders / clone systems / audits ----
 modelscope==1.17.1          # CAM++ (3D-Speaker / CN-Celeb) speaker embedding
+anime_speaker_embedding==0.2.1  # animeva (litagin) JA voice-actor ECAPA encoder
 huggingface-hub==1.10.1     # model/checkpoint downloads
 faster-whisper==1.2.1       # ASR for GPT-SoVITS prompt transcripts
 Resemblyzer==0.1.4          # independent VC-fidelity speaker-similarity check
