@@ -1,0 +1,14 @@
+{
+ "animeva": {
+  "raw_balacc": 0.9639999999999999,
+  "raw_auc": 0.9936,
+  "matched_channel_balacc": 0.959,
+  "matched_channel_auc": 0.9932000000000001
+ },
+ "ecapa": {
+  "raw_balacc": 0.9719999999999999,
+  "raw_auc": 0.9953999999999998,
+  "matched_channel_balacc": 0.967,
+  "matched_channel_auc": 0.993
+ }
+}

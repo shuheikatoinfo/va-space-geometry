@@ -1,0 +1,75 @@
+{
+ "meta": {
+  "mos_model": "tarepan/SpeechMOS:utmos22_strong (UTMOS22 strong learner, 16kHz)",
+  "asr_model": "faster-whisper large-v3 (ja, beam=5, no VAD)",
+  "sample_per_group": 144,
+  "seed": 1234,
+  "device": "cuda",
+  "note": "high speaker-similarity fidelity claim cross-checked with an automated naturalness (DNN-MOS) + intelligibility (CER) axis; no human study."
+ },
+ "mos": {
+  "real": {
+   "n": 144,
+   "mean": 2.0871149053176246,
+   "std": 0.6343228839711719,
+   "median": 2.0903165340423584,
+   "min": 1.2401560544967651,
+   "max": 3.5581929683685303,
+   "mos_fails": 0
+  },
+  "seedvc": {
+   "n": 144,
+   "mean": 2.5459660904275045,
+   "std": 0.6538510051706979,
+   "median": 2.6416772603988647,
+   "min": 1.3030688762664795,
+   "max": 4.253983974456787,
+   "mos_fails": 0
+  },
+  "irodori": {
+   "n": 144,
+   "mean": 2.7601510509848595,
+   "std": 0.5615558077491398,
+   "median": 2.7724153995513916,
+   "min": 1.3147695064544678,
+   "max": 4.014188766479492,
+   "mos_fails": 0
+  }
+ },
+ "cer": {
+  "irodori_fixed_sentence": {
+   "n": 144,
+   "mean": 0.014157379959010393,
+   "std": 0.021265834318309675,
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.09090909090909091,
+   "frac_le_0.1": 1.0,
+   "frac_le_0.3": 1.0,
+   "description": "intended text = one of 6 fixed sentences (truly known); CER = ASR(clone) vs intended"
+  },
+  "seedvc_content_preservation": {
+   "n": 144,
+   "mean": 0.037160466847966846,
+   "std": 0.05393414367852175,
+   "median": 0.0,
+   "min": 0.0,
+   "max": 0.22727272727272727,
+   "frac_le_0.1": 0.8680555555555556,
+   "frac_le_0.3": 1.0,
+   "description": "VC content-preservation CER = ASR(clone) vs ASR(source JVS segment); source is a VAD chunk so full-sentence JVS text is not a fair reference"
+  },
+  "irodori_matched": {
+   "n": 477,
+   "mean": 0.043201615648643533,
+   "std": 0.12242913589349973,
+   "median": 0.0,
+   "min": 0.0,
+   "max": 1.1666666666666667,
+   "frac_le_0.1": 0.8763102725366876,
+   "frac_le_0.3": 0.9727463312368972,
+   "source": "clones/irodori_matched/manifest.json (large-v3, precomputed)"
+  },
+  "real_actor_segments": "skipped: no ground-truth reference transcripts for corpus segments"
+ }
+}

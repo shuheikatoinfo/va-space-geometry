@@ -1,0 +1,22 @@
+{
+ "animeva": {
+  "threshold_eer": 0.3109259307384491,
+  "n_clones": 240,
+  "detectable_rate": 0.7708333333333334,
+  "correct_attribution_rate": 0.8416666666666667,
+  "false_attribution_rate": 0.15833333333333333,
+  "mean_attribution_margin": 0.19051271475230655,
+  "thin_margin_rate(<0.05)": 0.1125,
+  "mean_collateral_neighbors": 0.19583333333333333
+ },
+ "ecapa": {
+  "threshold_eer": 0.36497461795806885,
+  "n_clones": 240,
+  "detectable_rate": 0.8708333333333333,
+  "correct_attribution_rate": 0.925,
+  "false_attribution_rate": 0.075,
+  "mean_attribution_margin": 0.18020336646586657,
+  "thin_margin_rate(<0.05)": 0.1375,
+  "mean_collateral_neighbors": 0.2875
+ }
+}

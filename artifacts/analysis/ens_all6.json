@@ -1,0 +1,161 @@
+{
+ "model": "ens_all6",
+ "num_segments": 56568,
+ "embedding_dim": 2368,
+ "num_speakers": 1168,
+ "k": 10,
+ "phase3_margin": {
+  "rank1_accuracy": 0.9495297694809787,
+  "verification_margin_mean": 0.09350624680519104,
+  "verification_margin_median": 0.09458944201469421,
+  "verification_margin_std": 0.06102544069290161,
+  "misidentified_fraction": 0.049303493140998446,
+  "critical_fraction_abs_margin": {
+   "<0.005": 0.014407438834676848,
+   "<0.01": 0.028920944703719417,
+   "<0.02": 0.06047588742752086,
+   "<0.05": 0.1843268278885589
+  },
+  "operational_top1_top2_margin_mean": 0.022628773003816605,
+  "top_competing_speaker_pairs": [
+   [
+    "5f781672a3b39eed | 7200dced024be241",
+    80
+   ],
+   [
+    "7f29cb9ee09ff234 | c6e66cfe4c0bb44a",
+    65
+   ],
+   [
+    "43f5bdc06e30cf48 | 35a662d159e96a68",
+    17
+   ],
+   [
+    "6ba8c80577140408 | 60fbc35c3b11dcb4",
+    13
+   ],
+   [
+    "5f781672a3b39eed | 958b4ccedd07104b",
+    9
+   ],
+   [
+    "c452c7df6df9b0c5 | 35a662d159e96a68",
+    9
+   ],
+   [
+    "d1c656e0d98b04db | 34b19811921aa33c",
+    8
+   ],
+   [
+    "f0bab60c5dfa90e2 | 4051163a943faf33",
+    7
+   ],
+   [
+    "f44eecb3542193e7 | 0362bcf227244457",
+    7
+   ],
+   [
+    "c84abde98354846a | 94aa6a7ab1b1f3ab",
+    7
+   ],
+   [
+    "3cd57d62d710ff26 | 5f1378afd1b92204",
+    7
+   ],
+   [
+    "6d4fdd529ec0e543 | 9c27a5f580d11440",
+    7
+   ],
+   [
+    "5ecae14af799cc04 | 7cca49d98dd004de",
+    7
+   ],
+   [
+    "d96d2d1e2fc771db | c452c7df6df9b0c5",
+    7
+   ],
+   [
+    "1b7a8cefe69f783c | 8b62658c6430384d",
+    6
+   ],
+   [
+    "cdc83bbfa7890602 | 36e188cbc40fb4ea",
+    6
+   ],
+   [
+    "07e8fbf42b01245e | 07fe16b37f12819b",
+    6
+   ],
+   [
+    "af70bf4240b930ed | 8b62658c6430384d",
+    6
+   ],
+   [
+    "7a5019e9d5681b94 | ce91723b97836ff7",
+    6
+   ],
+   [
+    "089b0eb8eb389a49 | f9c42a0d52074b98",
+    6
+   ],
+   [
+    "35e15000a303d86c | b5faa35bbf455b22",
+    6
+   ],
+   [
+    "005f363d74003b5a | 613842c981ceccc1",
+    6
+   ],
+   [
+    "7a67db2ec2073cd2 | bc6d0ca2cc362150",
+    6
+   ],
+   [
+    "5d8c64700e3db64c | 8adaff55d76bfc7b",
+    6
+   ],
+   [
+    "7e69fd8cca6eee30 | 5f781672a3b39eed",
+    6
+   ],
+   [
+    "c84abde98354846a | 27fafc6425975b67",
+    6
+   ],
+   [
+    "68476bcae99bd01f | 7200dced024be241",
+    6
+   ],
+   [
+    "eee845fdb27a7561 | 87390774b89eaea0",
+    5
+   ],
+   [
+    "a6c6c76823740956 | 92bb02a7ab2bb297",
+    5
+   ],
+   [
+    "280bdc99c9ad1138 | 532c7bb0b06528f1",
+    5
+   ]
+  ]
+ },
+ "channel_confound": {
+  "num_recording_sources": 70,
+  "nearest_impostor_same_source_fraction": 0.13228326969311271,
+  "chance_same_source_fraction": 0.06425072874623476,
+  "same_source_enrichment": 2.058860222668911,
+  "critical_queries_same_source_fraction": 0.11009878200824781,
+  "margin_mean_when_impostor_same_source": 0.0954495519399643,
+  "margin_mean_when_impostor_diff_source": 0.09320998191833496
+ },
+ "phase4_geometry": {
+  "knn_density_skewness": 0.44337873348449697,
+  "nn_distance_skewness": 0.26915203415808353,
+  "hubness_skewness": 2.2386976622133656,
+  "hubness_skewness_pvalue": 0.0,
+  "hub_count": 1960,
+  "antihub_count": 1054,
+  "antihub_fraction": 0.01863244237024466
+ }
+}

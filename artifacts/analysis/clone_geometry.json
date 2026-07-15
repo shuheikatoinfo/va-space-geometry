@@ -1,0 +1,21 @@
+{
+ "animeva": {
+  "model": "animeva",
+  "n_synth": 2640,
+  "n_methods": 7,
+  "n_targets": 120,
+  "nn_same_method": 0.8965909090909091,
+  "nn_chance_method": 0.18977574149987944,
+  "nn_same_target": 0.9890151515151515,
+  "nn_chance_target": 0.011402390712735539,
+  "probe_method_acc": 0.6515151515151515,
+  "probe_method_chance": 0.2727272727272727,
+  "probe_target_acc": 0.9208333333333333,
+  "probe_target_chance": 0.015909090909090907,
+  "cos_same_target_diff_method": 0.3826175928115845,
+  "cos_same_method_diff_target": 0.021448126062750816,
+  "silhouette_by_method": 0.004739553667604923,
+  "silhouette_by_target": 0.2526833713054657,
+  "real_vs_synth_probe_acc": 0.8586538461538462
+ }
+}

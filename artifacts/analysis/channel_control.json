@@ -1,0 +1,198 @@
+{
+ "animeva": {
+  "model": "animeva",
+  "n_clone": 980,
+  "n_real": 464,
+  "n_targets": 116,
+  "matched_channel": {
+   "raw": {
+    "balanced_acc": 0.7436507526161782,
+    "roc_auc": 0.832923729546901,
+    "recall_real": 0.8060344827586207,
+    "recall_synth": 0.6806122448979591,
+    "majority_baseline": 0.6786703601108033
+   },
+   "bandlimit": {
+    "balanced_acc": 0.7177889450974557,
+    "roc_auc": 0.7886472318314073,
+    "recall_real": 0.7866379310344828,
+    "recall_synth": 0.6479591836734694,
+    "majority_baseline": 0.6786703601108033
+   },
+   "codec": {
+    "balanced_acc": 0.7212858856568963,
+    "roc_auc": 0.8010882493872853,
+    "recall_real": 0.7887931034482759,
+    "recall_synth": 0.6530612244897959,
+    "majority_baseline": 0.6786703601108033
+   },
+   "both": {
+    "balanced_acc": 0.7133500967117988,
+    "roc_auc": 0.7907594518734811,
+    "recall_real": 0.7823275862068966,
+    "recall_synth": 0.6438775510204081,
+    "majority_baseline": 0.6786703601108033
+   }
+  },
+  "per_method_raw": {
+   "seedvc": {
+    "balanced_acc": 0.8426889233954451,
+    "majority_baseline": 0.7682119205298014,
+    "type": "fresh-channel TTS",
+    "n_clone": 140
+   },
+   "irodori": {
+    "balanced_acc": 0.7965709109730849,
+    "majority_baseline": 0.7682119205298014,
+    "type": "fresh-channel TTS",
+    "n_clone": 140
+   },
+   "gptsovits_v1": {
+    "balanced_acc": 0.9202257525083614,
+    "majority_baseline": 0.7682119205298014,
+    "type": "fresh-channel TTS",
+    "n_clone": 140
+   },
+   "gptsovits_v2": {
+    "balanced_acc": 0.8436475752508361,
+    "majority_baseline": 0.7682119205298014,
+    "type": "fresh-channel TTS",
+    "n_clone": 140
+   },
+   "gptsovits_v2ProPlus": {
+    "balanced_acc": 0.7750097547380157,
+    "majority_baseline": 0.7682119205298014,
+    "type": "fresh-channel TTS",
+    "n_clone": 140
+   },
+   "gptsovits_v3": {
+    "balanced_acc": 0.7621509197324414,
+    "majority_baseline": 0.7682119205298014,
+    "type": "fresh-channel TTS",
+    "n_clone": 140
+   },
+   "gptsovits_v4": {
+    "balanced_acc": 0.7200996376811595,
+    "majority_baseline": 0.7682119205298014,
+    "type": "fresh-channel TTS",
+    "n_clone": 140
+   }
+  },
+  "cross_synth": {
+   "seedvc": {
+    "balanced_acc_heldout": 0.677021563342318,
+    "n_test_synth": 140
+   },
+   "irodori": {
+    "balanced_acc_heldout": 0.6674528301886793,
+    "n_test_synth": 140
+   },
+   "gptsovits_v1": {
+    "balanced_acc_heldout": 0.8200808625336927,
+    "n_test_synth": 140
+   },
+   "gptsovits_v4": {
+    "balanced_acc_heldout": 0.8616576819407008,
+    "n_test_synth": 140
+   }
+  }
+ },
+ "ecapa": {
+  "model": "ecapa",
+  "n_clone": 980,
+  "n_real": 464,
+  "n_targets": 116,
+  "matched_channel": {
+   "raw": {
+    "balanced_acc": 0.8590456126320488,
+    "roc_auc": 0.9379937364644813,
+    "recall_real": 0.8922413793103449,
+    "recall_synth": 0.8244897959183674,
+    "majority_baseline": 0.6786703601108033
+   },
+   "bandlimit": {
+    "balanced_acc": 0.8728705859743094,
+    "roc_auc": 0.9418016040364778,
+    "recall_real": 0.9030172413793104,
+    "recall_synth": 0.8418367346938775,
+    "majority_baseline": 0.6786703601108033
+   },
+   "codec": {
+    "balanced_acc": 0.858376286390914,
+    "roc_auc": 0.9334539527589728,
+    "recall_real": 0.8900862068965517,
+    "recall_synth": 0.8255102040816327,
+    "majority_baseline": 0.6786703601108033
+   },
+   "both": {
+    "balanced_acc": 0.8668760849079998,
+    "roc_auc": 0.9420585519035486,
+    "recall_real": 0.9008620689655172,
+    "recall_synth": 0.8316326530612245,
+    "majority_baseline": 0.6786703601108033
+   }
+  },
+  "per_method_raw": {
+   "seedvc": {
+    "balanced_acc": 0.9247606107660455,
+    "majority_baseline": 0.7682119205298014,
+    "type": "fresh-channel TTS",
+    "n_clone": 140
+   },
+   "irodori": {
+    "balanced_acc": 0.9164402173913043,
+    "majority_baseline": 0.7682119205298014,
+    "type": "fresh-channel TTS",
+    "n_clone": 140
+   },
+   "gptsovits_v1": {
+    "balanced_acc": 0.9566032608695652,
+    "majority_baseline": 0.7682119205298014,
+    "type": "fresh-channel TTS",
+    "n_clone": 140
+   },
+   "gptsovits_v2": {
+    "balanced_acc": 0.9530797101449275,
+    "majority_baseline": 0.7682119205298014,
+    "type": "fresh-channel TTS",
+    "n_clone": 140
+   },
+   "gptsovits_v2ProPlus": {
+    "balanced_acc": 0.9260688405797101,
+    "majority_baseline": 0.7682119205298014,
+    "type": "fresh-channel TTS",
+    "n_clone": 140
+   },
+   "gptsovits_v3": {
+    "balanced_acc": 0.8535646599777035,
+    "majority_baseline": 0.7682119205298014,
+    "type": "fresh-channel TTS",
+    "n_clone": 140
+   },
+   "gptsovits_v4": {
+    "balanced_acc": 0.8326093924191751,
+    "majority_baseline": 0.7682119205298014,
+    "type": "fresh-channel TTS",
+    "n_clone": 140
+   }
+  },
+  "cross_synth": {
+   "seedvc": {
+    "balanced_acc_heldout": 0.5551212938005391,
+    "n_test_synth": 140
+   },
+   "irodori": {
+    "balanced_acc_heldout": 0.6992587601078167,
+    "n_test_synth": 140
+   },
+   "gptsovits_v1": {
+    "balanced_acc_heldout": 0.9256064690026954,
+    "n_test_synth": 140
+   },
+   "gptsovits_v4": {
+    "balanced_acc_heldout": 0.9076145552560646,
+    "n_test_synth": 140
+   }
+  }
+ }
+}

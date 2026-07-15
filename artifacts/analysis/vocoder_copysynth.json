@@ -1,0 +1,76 @@
+{
+ "vocoder": "BigVGAN v2 (nvidia/bigvgan_v2_22khz_80band_256x, Seed-VC bundled module)",
+ "copysynth_dir": "<local-path-redacted>",
+ "models": {
+  "animeva": {
+   "model": "animeva",
+   "n_copysynth": 800,
+   "n_real": 800,
+   "n_speakers": 200,
+   "real_vs_copysynth": {
+    "balanced_acc": 0.58,
+    "roc_auc": 0.6076796874999999,
+    "recall_real": 0.57375,
+    "recall_synth": 0.58625
+   },
+   "real_vs_clone_reference": {
+    "balanced_acc": 0.7436507526161782,
+    "roc_auc": 0.832923729546901,
+    "recall_real": 0.8060344827586207,
+    "recall_synth": 0.6806122448979591,
+    "n_clone": 980,
+    "n_real": 464,
+    "n_targets": 116
+   },
+   "clone_clf_on_copysynth": {
+    "frac_copysynth_flagged_synthetic": 0.20545977011494254,
+    "frac_real_flagged_synthetic_control": 0.17672413793103448,
+    "eval_restricted_to_non_clone_targets": true,
+    "n_eval_segments": 696,
+    "n_eval_speakers": 174
+   },
+   "identity_preservation": {
+    "cos_cs_to_own_centroid": 0.7927946448326111,
+    "cos_cs_to_other_centroids": 0.040517985820770264,
+    "cos_real_to_own_centroid": 0.8027560710906982,
+    "top1_own_centroid_rate_cs": 0.9975,
+    "n_speakers": 200
+   }
+  },
+  "ecapa": {
+   "model": "ecapa",
+   "n_copysynth": 800,
+   "n_real": 800,
+   "n_speakers": 200,
+   "real_vs_copysynth": {
+    "balanced_acc": 0.61625,
+    "roc_auc": 0.6622109375,
+    "recall_real": 0.6325,
+    "recall_synth": 0.6
+   },
+   "real_vs_clone_reference": {
+    "balanced_acc": 0.8590456126320488,
+    "roc_auc": 0.9379937364644813,
+    "recall_real": 0.8922413793103449,
+    "recall_synth": 0.8244897959183674,
+    "n_clone": 980,
+    "n_real": 464,
+    "n_targets": 116
+   },
+   "clone_clf_on_copysynth": {
+    "frac_copysynth_flagged_synthetic": 0.16091954022988506,
+    "frac_real_flagged_synthetic_control": 0.125,
+    "eval_restricted_to_non_clone_targets": true,
+    "n_eval_segments": 696,
+    "n_eval_speakers": 174
+   },
+   "identity_preservation": {
+    "cos_cs_to_own_centroid": 0.808061420917511,
+    "cos_cs_to_other_centroids": 0.2104295939207077,
+    "cos_real_to_own_centroid": 0.8143374919891357,
+    "top1_own_centroid_rate_cs": 0.9825,
+    "n_speakers": 200
+   }
+  }
+ }
+}

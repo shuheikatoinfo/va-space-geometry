@@ -1,0 +1,52 @@
+{
+ "design": "content-matched real/clone control (Irodori-TTS zero-shot)",
+ "asr_model": "large-v3",
+ "tts": "Aratako/Irodori-TTS-500M-v3",
+ "n_targets": 120,
+ "n_pairs": 477,
+ "n_original_clones": 720,
+ "cer": {
+  "mean": 0.043201615648643533,
+  "median": 0.0,
+  "frac_le_0.1": 0.8763102725366876,
+  "frac_le_0.3": 0.9727463312368972
+ },
+ "models": {
+  "ecapa": {
+   "real_vs_matched_clones": {
+    "balanced_acc": 0.8857017543859648,
+    "roc_auc": 0.9520959838604186,
+    "recall_real": 0.8888888888888888,
+    "recall_synth": 0.8825995807127882,
+    "n_real": 477,
+    "n_clone": 477
+   },
+   "real_vs_original_clones_reference": {
+    "balanced_acc": 0.8993786549707602,
+    "roc_auc": 0.9664126461988303,
+    "recall_real": 0.9140461215932913,
+    "recall_synth": 0.8847222222222222,
+    "n_real": 477,
+    "n_clone": 720
+   }
+  },
+  "animeva": {
+   "real_vs_matched_clones": {
+    "balanced_acc": 0.8070065789473684,
+    "roc_auc": 0.8924282086795937,
+    "recall_real": 0.8238993710691824,
+    "recall_synth": 0.790356394129979,
+    "n_real": 477,
+    "n_clone": 477
+   },
+   "real_vs_original_clones_reference": {
+    "balanced_acc": 0.8484758771929825,
+    "roc_auc": 0.9286583211500975,
+    "recall_real": 0.8553459119496856,
+    "recall_synth": 0.8416666666666667,
+    "n_real": 477,
+    "n_clone": 720
+   }
+  }
+ }
+}

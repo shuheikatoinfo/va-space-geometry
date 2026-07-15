@@ -1,0 +1,121 @@
+{
+ "design": "content-matched real/clone control extended to Seed-VC (self-conversion: content AND prosody matched) and GPT-SoVITS v4 (ASR text-matched); protocol identical to content_matched_control.py",
+ "notes": [
+  "Seed-VC control uses self-conversion: the held-out real segment itself is the VC source, so content and prosody are both matched. If separability persists, the covariate-shift reading is even stronger than for the text-only-matched Irodori control.",
+  "Reference (b) uses the original content-unmatched clones of the same synthesizer restricted to the same speakers, same real segments, same separability protocol (logreg on centered+L2-normed embeddings, GroupKFold by speaker)."
+ ],
+ "caveats": [
+  "Seed-VC self-conversion also removes prosody/style mismatch, so (a) vs (b) for Seed-VC bounds content+prosody jointly, not content alone.",
+  "GPT-SoVITS matching is approximate: ASR (large-v3) + TTS errors upper-bound the mismatch (see CER block); prompt transcription uses the same run_gptsovits_ver.py recipe (whisper of ref_wavs[0]).",
+  "Within-synthesizer comparisons only; numbers are not directly comparable to the all-synthesizer separability in the main text."
+ ],
+ "synthesizers": {
+  "seedvc": {
+   "meta": {
+    "method": "seed-vc v2 self-conversion (source = held-out real segment, prompt = target's standard concatenated reference)",
+    "diffusion_steps": 30,
+    "n_targets": 120,
+    "n_pairs": 480,
+    "failures": []
+   },
+   "n_targets": 120,
+   "n_pairs": 480,
+   "n_original_clones": 720,
+   "models": {
+    "ecapa": {
+     "real_vs_matched_clones": {
+      "balanced_acc": 0.8979166666666666,
+      "roc_auc": 0.9607855902777779,
+      "recall_real": 0.9020833333333333,
+      "recall_synth": 0.89375,
+      "n_real": 480,
+      "n_clone": 480
+     },
+     "real_vs_original_clones_reference": {
+      "balanced_acc": 0.9385416666666666,
+      "roc_auc": 0.9809751157407408,
+      "recall_real": 0.94375,
+      "recall_synth": 0.9333333333333333,
+      "n_real": 480,
+      "n_clone": 720
+     }
+    },
+    "animeva": {
+     "real_vs_matched_clones": {
+      "balanced_acc": 0.825,
+      "roc_auc": 0.9065321180555556,
+      "recall_real": 0.8375,
+      "recall_synth": 0.8125,
+      "n_real": 480,
+      "n_clone": 480
+     },
+     "real_vs_original_clones_reference": {
+      "balanced_acc": 0.8649305555555558,
+      "roc_auc": 0.9428674768518519,
+      "recall_real": 0.8770833333333333,
+      "recall_synth": 0.8527777777777777,
+      "n_real": 480,
+      "n_clone": 720
+     }
+    }
+   }
+  },
+  "gptsovits_v4": {
+   "meta": {
+    "method": "gpt-sovits v4 zero-shot, same recipe as run_gptsovits_ver.py, text = faster-whisper large-v3 transcript of held-out real segment",
+    "asr_model": "large-v3",
+    "n_targets": 40,
+    "n_pairs": 159,
+    "n_asr_skipped": 1,
+    "failures": []
+   },
+   "n_targets": 40,
+   "n_pairs": 159,
+   "n_original_clones": 240,
+   "models": {
+    "ecapa": {
+     "real_vs_matched_clones": {
+      "balanced_acc": 0.8115927419354838,
+      "roc_auc": 0.9120295021462018,
+      "recall_real": 0.7924528301886793,
+      "recall_synth": 0.8301886792452831,
+      "n_real": 159,
+      "n_clone": 159
+     },
+     "real_vs_original_clones_reference": {
+      "balanced_acc": 0.84815188172043,
+      "roc_auc": 0.934828629032258,
+      "recall_real": 0.8176100628930818,
+      "recall_synth": 0.8791666666666667,
+      "n_real": 159,
+      "n_clone": 240
+     }
+    },
+    "animeva": {
+     "real_vs_matched_clones": {
+      "balanced_acc": 0.7611895161290322,
+      "roc_auc": 0.8231818255723204,
+      "recall_real": 0.7358490566037735,
+      "recall_synth": 0.7861635220125787,
+      "n_real": 159,
+      "n_clone": 159
+     },
+     "real_vs_original_clones_reference": {
+      "balanced_acc": 0.7918010752688174,
+      "roc_auc": 0.8760164650537636,
+      "recall_real": 0.7672955974842768,
+      "recall_synth": 0.8166666666666667,
+      "n_real": 159,
+      "n_clone": 240
+     }
+    }
+   },
+   "cer": {
+    "mean": 0.06889504658100093,
+    "median": 0.0,
+    "frac_le_0.1": 0.7358490566037735,
+    "frac_le_0.3": 0.9559748427672956
+   }
+  }
+ }
+}

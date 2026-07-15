@@ -1,0 +1,238 @@
+{
+ "protocol": {
+  "members": [
+   "xvector",
+   "ecapa",
+   "campp",
+   "redimnet"
+  ],
+  "seeds": [
+   0,
+   1,
+   2
+  ],
+  "train_frac": 0.55,
+  "backend": "plain cosine (no LDA/WCCN/PLDA); fusion axis only",
+  "metric": "closed-set rank-1 misID (best-same < best-diff), freelance dropped",
+  "note": "cos_m = raw per-model cosine of L2-normalized member embeddings; equal-weight baseline == paper's 'cosine = mean of per-model cosines'"
+ },
+ "sanity_paper_reproduction": {
+  "concat_center_LN_cosine_misID_mean": 0.038702222584546024,
+  "std": 0.0016159434577915756,
+  "per_split": [
+   0.038565729202580896,
+   0.040746054519368725,
+   0.03679488403168846
+  ],
+  "expected_paper": "~0.039 (3.9%)"
+ },
+ "per_split": [
+  {
+   "seed": 0,
+   "n_train_spk": 606,
+   "n_eval_spk": 497,
+   "n_train_seg": 25691,
+   "n_eval_seg": 20303,
+   "mean_pool": 0.03782692212973452,
+   "mean_pool_train": 0.04122066093184384,
+   "learned_weights": 0.034970201448061865,
+   "learned_weights_train": 0.03705577828811646,
+   "learned_weights_vec": [
+    1.8826,
+    0.2084,
+    0.9606,
+    0.9485
+   ],
+   "learned_weights_opt": "softmax",
+   "stack_lr_linear": 0.042801556420233464,
+   "stack_lr_linear_coef": [
+    -2.4879,
+    -2.0595,
+    6.5838,
+    9.7213
+   ],
+   "stack_lr_quad": 0.04713589124759888
+  },
+  {
+   "seed": 1,
+   "n_train_spk": 606,
+   "n_eval_spk": 497,
+   "n_train_seg": 25084,
+   "n_eval_seg": 20910,
+   "mean_pool": 0.03940698230511717,
+   "mean_pool_train": 0.04377292297879126,
+   "learned_weights": 0.03558106169296987,
+   "learned_weights_train": 0.03994578217190241,
+   "learned_weights_vec": [
+    1.2267,
+    0.1552,
+    1.3821,
+    1.236
+   ],
+   "learned_weights_opt": "softmax",
+   "stack_lr_linear": 0.04261119081779053,
+   "stack_lr_linear_coef": [
+    -2.7204,
+    -1.9337,
+    6.4157,
+    9.8515
+   ],
+   "stack_lr_quad": 0.044811095169775224
+  },
+  {
+   "seed": 2,
+   "n_train_spk": 606,
+   "n_eval_spk": 497,
+   "n_train_seg": 25040,
+   "n_eval_seg": 20954,
+   "mean_pool": 0.03698577837167128,
+   "mean_pool_train": 0.04676517571884984,
+   "learned_weights": 0.03302472081702777,
+   "learned_weights_train": 0.04213258785942492,
+   "learned_weights_vec": [
+    1.0913,
+    0.189,
+    1.3606,
+    1.3591
+   ],
+   "learned_weights_opt": "softmax",
+   "stack_lr_linear": 0.04089911234131908,
+   "stack_lr_linear_coef": [
+    -2.5403,
+    -2.3998,
+    6.4872,
+    10.0625
+   ],
+   "stack_lr_quad": 0.046148706690846614
+  }
+ ],
+ "summary": {
+  "mean_pool": {
+   "misID_mean": 0.038073227602174325,
+   "misID_std": 0.001003678870007336,
+   "per_split": [
+    0.03782692212973452,
+    0.03940698230511717,
+    0.03698577837167128
+   ]
+  },
+  "learned_weights": {
+   "misID_mean": 0.03452532798601984,
+   "misID_std": 0.001090001212973347,
+   "per_split": [
+    0.034970201448061865,
+    0.03558106169296987,
+    0.03302472081702777
+   ]
+  },
+  "stack_lr_linear": {
+   "misID_mean": 0.04210395319311436,
+   "misID_std": 0.0008554885053833063,
+   "per_split": [
+    0.042801556420233464,
+    0.04261119081779053,
+    0.04089911234131908
+   ]
+  },
+  "stack_lr_quad": {
+   "misID_mean": 0.04603189770274024,
+   "misID_std": 0.0009526812883096102,
+   "per_split": [
+    0.04713589124759888,
+    0.044811095169775224,
+    0.046148706690846614
+   ]
+  }
+ },
+ "learned_weights_log": [
+  {
+   "seed": 0,
+   "w": [
+    1.8826,
+    0.2084,
+    0.9606,
+    0.9485
+   ],
+   "opt": "softmax",
+   "w_soft": [
+    1.8826,
+    0.2084,
+    0.9606,
+    0.9485
+   ],
+   "w_nm": [
+    0.237,
+    0.2466,
+    1.5221,
+    1.9943
+   ]
+  },
+  {
+   "seed": 1,
+   "w": [
+    1.2267,
+    0.1552,
+    1.3821,
+    1.236
+   ],
+   "opt": "softmax",
+   "w_soft": [
+    1.2267,
+    0.1552,
+    1.3821,
+    1.236
+   ],
+   "w_nm": [
+    0.6758,
+    0.4626,
+    1.4727,
+    1.3889
+   ]
+  },
+  {
+   "seed": 2,
+   "w": [
+    1.0913,
+    0.189,
+    1.3606,
+    1.3591
+   ],
+   "opt": "softmax",
+   "w_soft": [
+    1.0913,
+    0.189,
+    1.3606,
+    1.3591
+   ],
+   "w_nm": [
+    0.6559,
+    0.3545,
+    1.6834,
+    1.3063
+   ]
+  }
+ ],
+ "mechanism_probe_fixed_weights": {
+  "equal_[1,1,1,1]": {
+   "misID_mean": 0.038073227602174325,
+   "misID_std": 0.001003678870007336
+  },
+  "drop_ecapa_[1,0,1,1]": {
+   "misID_mean": 0.03497516344112878,
+   "misID_std": 0.001079670994625513
+  },
+  "drop_xvector_[0,1,1,1]": {
+   "misID_mean": 0.038137469544778306,
+   "misID_std": 0.001063201596869704
+  },
+  "campp+redim_[0,0,1,1]": {
+   "misID_mean": 0.035293856261932884,
+   "misID_std": 0.0012794526979930758
+  },
+  "downwt_ecapa_[1,.2,1,1]": {
+   "misID_mean": 0.0342780388151639,
+   "misID_std": 0.0010098849096597013
+  }
+ },
+ "conclusion": "The mean-pool floor barely moves. Learned nonneg per-encoder weights lower misID from 3.81% to 3.45% (-0.35pp, ~9% relative), consistent across all 3 disjoint splits -- but this ENTIRE gain is reproduced by the trivial rule 'downweight the redundant ecapa member' (drop_ecapa=3.50%), i.e. member pruning, not richer fusion. The 'stronger fusion' the reviewer names -- stacking logistic regression over per-encoder cosines -- does NOT beat mean-pool; it is WORSE (4.21% linear, 4.60% quadratic), because a pairwise same/diff logistic objective is misaligned with rank-1 identification. Net: learned fusion does not meaningfully lower the closed-set misID floor."
+}

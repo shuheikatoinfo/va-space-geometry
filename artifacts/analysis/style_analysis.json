@@ -1,0 +1,92 @@
+{
+ "ecapa": {
+  "model": "ecapa",
+  "within_spk_same_style_cos": 0.36207684874534607,
+  "within_spk_diff_style_cos": 0.3048942983150482,
+  "style_drives_intra_spread": 0.05718255043029785,
+  "margin_by_style": {
+   "narration": {
+    "n": 9764,
+    "mean_margin": 0.09245653450489044,
+    "misid": 0.13109381401065137,
+    "critical<0.02": 0.08756657107742728
+   },
+   "dialogue": {
+    "n": 9378,
+    "mean_margin": 0.08247163891792297,
+    "misid": 0.18298144593730006,
+    "critical<0.02": 0.10769886969503092
+   },
+   "full": {
+    "n": 721,
+    "mean_margin": 0.23634307086467743,
+    "misid": 0.023578363384188627,
+    "critical<0.02": 0.018030513176144243
+   },
+   "freeform": {
+    "n": 10574,
+    "mean_margin": 0.11388754099607468,
+    "misid": 0.07537355778324191,
+    "critical<0.02": 0.06695668621146207
+   },
+   "other": {
+    "n": 26131,
+    "mean_margin": 0.11060678958892822,
+    "misid": 0.14186215605985228,
+    "critical<0.02": 0.08748230071562511
+   }
+  },
+  "style_distribution": {
+   "freeform": 10574,
+   "narration": 9764,
+   "full": 721,
+   "other": 26131,
+   "dialogue": 9378
+  }
+ },
+ "animeva": {
+  "model": "animeva",
+  "within_spk_same_style_cos": 0.41300898790359497,
+  "within_spk_diff_style_cos": 0.31525805592536926,
+  "style_drives_intra_spread": 0.09775093197822571,
+  "margin_by_style": {
+   "narration": {
+    "n": 9764,
+    "mean_margin": 0.17446698248386383,
+    "misid": 0.044039328144203194,
+    "critical<0.02": 0.025399426464563703
+   },
+   "dialogue": {
+    "n": 9378,
+    "mean_margin": 0.19745884835720062,
+    "misid": 0.01834079761143101,
+    "critical<0.02": 0.014075495841330775
+   },
+   "full": {
+    "n": 721,
+    "mean_margin": 0.31066393852233887,
+    "misid": 0.011095700416088766,
+    "critical<0.02": 0.006934812760055479
+   },
+   "freeform": {
+    "n": 10574,
+    "mean_margin": 0.19919143617153168,
+    "misid": 0.029411764705882353,
+    "critical<0.02": 0.03073576697560053
+   },
+   "other": {
+    "n": 26131,
+    "mean_margin": 0.21943846344947815,
+    "misid": 0.02322911484443764,
+    "critical<0.02": 0.01400635260801347
+   }
+  },
+  "style_distribution": {
+   "freeform": 10574,
+   "narration": 9764,
+   "full": 721,
+   "other": 26131,
+   "dialogue": 9378
+  }
+ }
+}

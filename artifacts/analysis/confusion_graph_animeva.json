@@ -1,0 +1,72 @@
+{
+ "model": "animeva",
+ "n_speakers": 1103,
+ "n_edges_pairs": 24985,
+ "indegree_skew": 1.250277308460091,
+ "indegree_max_over_mean": 4.292668608948993,
+ "asymmetry_fraction": 0.4763257954772864,
+ "n_communities": 5,
+ "community_sizes_top": [
+  450,
+  267,
+  198,
+  186,
+  2
+ ],
+ "modularity": 0.5242753126647824,
+ "top_hubs": [
+  {
+   "in_degree": 179,
+   "gender": "male"
+  },
+  {
+   "in_degree": 163,
+   "gender": "male"
+  },
+  {
+   "in_degree": 141,
+   "gender": "female"
+  },
+  {
+   "in_degree": 140,
+   "gender": "unknown"
+  },
+  {
+   "in_degree": 134,
+   "gender": "unknown"
+  },
+  {
+   "in_degree": 131,
+   "gender": "unknown"
+  },
+  {
+   "in_degree": 128,
+   "gender": "unknown"
+  },
+  {
+   "in_degree": 126,
+   "gender": "unknown"
+  },
+  {
+   "in_degree": 123,
+   "gender": "male"
+  },
+  {
+   "in_degree": 123,
+   "gender": "unknown"
+  },
+  {
+   "in_degree": 122,
+   "gender": "male"
+  },
+  {
+   "in_degree": 121,
+   "gender": "unknown"
+  }
+ ],
+ "mean_indegree_by_gender": {
+  "unknown": 42.96279069767442,
+  "female": 37.467213114754095,
+  "male": 42.71495327102804
+ }
+}

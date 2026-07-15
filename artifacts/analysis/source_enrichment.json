@@ -1,0 +1,72 @@
+{
+ "animeva": {
+  "n_gallery": 1100,
+  "n_wrong_attribution_rows": 50,
+  "n_unique_wrong_actors": 35,
+  "median_rank_wrong": 392.0,
+  "median_percentile_wrong": 35.63636363636364,
+  "median_rank_all": 550.5,
+  "median_rank_events_weighted": 390.5,
+  "mannwhitney_U": 16154.0,
+  "mannwhitney_p_one_sided_less": 0.08969164401478702,
+  "top10": {
+   "k": 10,
+   "hits": 0,
+   "expected": 0.32,
+   "p_hypergeom": 1.0,
+   "events_in_topk": 0,
+   "events_total": 50,
+   "events_chance_rate": 0.00909090909090909,
+   "wrongful_over_thr_events_in_topk": 0,
+   "wrongful_over_thr_events_total": 8
+  },
+  "top50": {
+   "k": 50,
+   "hits": 1,
+   "expected": 1.59,
+   "p_hypergeom": 0.8088167989146087,
+   "events_in_topk": 2,
+   "events_total": 50,
+   "events_chance_rate": 0.045454545454545456,
+   "wrongful_over_thr_events_in_topk": 0,
+   "wrongful_over_thr_events_total": 8
+  },
+  "sim_jvs001_to_nearest_gallery": 0.47208285331726074,
+  "nearest_gallery_actor_to_jvs001": "ab1217e758b3ddfe"
+ },
+ "ecapa": {
+  "n_gallery": 1100,
+  "n_wrong_attribution_rows": 205,
+  "n_unique_wrong_actors": 90,
+  "median_rank_wrong": 643.5,
+  "median_percentile_wrong": 58.5,
+  "median_rank_all": 550.5,
+  "median_rank_events_weighted": 647.0,
+  "mannwhitney_U": 47453.0,
+  "mannwhitney_p_one_sided_less": 0.7560811857360079,
+  "top10": {
+   "k": 10,
+   "hits": 3,
+   "expected": 0.82,
+   "p_hypergeom": 0.041683728946907035,
+   "events_in_topk": 10,
+   "events_total": 205,
+   "events_chance_rate": 0.00909090909090909,
+   "wrongful_over_thr_events_in_topk": 2,
+   "wrongful_over_thr_events_total": 129
+  },
+  "top50": {
+   "k": 50,
+   "hits": 12,
+   "expected": 4.09,
+   "p_hypergeom": 0.0003923829067406268,
+   "events_in_topk": 25,
+   "events_total": 205,
+   "events_chance_rate": 0.045454545454545456,
+   "wrongful_over_thr_events_in_topk": 6,
+   "wrongful_over_thr_events_total": 129
+  },
+  "sim_jvs001_to_nearest_gallery": 0.6373559236526489,
+  "nearest_gallery_actor_to_jvs001": "bb5ca8231f947eed"
+ }
+}

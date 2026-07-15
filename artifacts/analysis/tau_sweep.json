@@ -1,0 +1,297 @@
+{
+ "protocol": "same-file EER centered-cosine gallery (score_clones.py); tau swept over real-vs-real impostor FAR quantiles",
+ "synthesizers": {
+  "seedvc": {
+   "animeva": {
+    "n_clones": 720,
+    "n_target_speakers": 120,
+    "n_gallery": 1100,
+    "eer_threshold": 0.45531249046325684,
+    "eer_far": 0.21808632107787165,
+    "false_attr_rate": 0.06944444444444445,
+    "operating_points": [
+     {
+      "label": "FAR~1%",
+      "far_target": 0.01,
+      "tau": 0.5636604738235477,
+      "far_actual": 0.010047956154373145,
+      "detection_recall": 0.5680555555555555,
+      "wrongful_accusation": 0.0,
+      "false_attr": 0.06944444444444445,
+      "mean_collateral": 0.0
+     },
+     {
+      "label": "FAR~2%",
+      "far_target": 0.02,
+      "tau": 0.5454491567611695,
+      "far_actual": 0.02009591230874629,
+      "detection_recall": 0.6166666666666667,
+      "wrongful_accusation": 0.0,
+      "false_attr": 0.06944444444444445,
+      "mean_collateral": 0.0125
+     },
+     {
+      "label": "FAR~5%",
+      "far_target": 0.05,
+      "tau": 0.5146926462650298,
+      "far_actual": 0.050011418131993605,
+      "detection_recall": 0.6944444444444444,
+      "wrongful_accusation": 0.001388888888888889,
+      "false_attr": 0.06944444444444445,
+      "mean_collateral": 0.027777777777777776
+     },
+     {
+      "label": "FAR~10%",
+      "far_target": 0.1,
+      "tau": 0.48953977227211004,
+      "far_actual": 0.10002283626398721,
+      "detection_recall": 0.7611111111111111,
+      "wrongful_accusation": 0.001388888888888889,
+      "false_attr": 0.06944444444444445,
+      "mean_collateral": 0.06805555555555555
+     },
+     {
+      "label": "EER",
+      "far_target": null,
+      "tau": 0.45531249046325684,
+      "far_actual": 0.21808632107787165,
+      "detection_recall": 0.8305555555555556,
+      "wrongful_accusation": 0.011111111111111112,
+      "false_attr": 0.06944444444444445,
+      "mean_collateral": 0.21388888888888888
+     }
+    ],
+    "cached_check": {
+     "detect": 0.8305555555555556,
+     "wrongful": 0.011111111111111112,
+     "false_attr": 0.06944444444444445,
+     "collateral": 0.21388888888888888
+    },
+    "reproduced_at_eer": {
+     "detect": 0.8305555555555556,
+     "wrongful": 0.011111111111111112,
+     "false_attr": 0.06944444444444445,
+     "collateral": 0.21388888888888888
+    }
+   },
+   "ecapa": {
+    "n_clones": 720,
+    "n_target_speakers": 120,
+    "n_gallery": 1100,
+    "eer_threshold": 0.4748010039329529,
+    "eer_far": 0.47408084037451476,
+    "false_attr_rate": 0.2847222222222222,
+    "operating_points": [
+     {
+      "label": "FAR~1%",
+      "far_target": 0.01,
+      "tau": 0.6389723682403565,
+      "far_actual": 0.010047956154373145,
+      "detection_recall": 0.15555555555555556,
+      "wrongful_accusation": 0.002777777777777778,
+      "false_attr": 0.2847222222222222,
+      "mean_collateral": 0.006944444444444444
+     },
+     {
+      "label": "FAR~2%",
+      "far_target": 0.02,
+      "tau": 0.6241226053237915,
+      "far_actual": 0.02009591230874629,
+      "detection_recall": 0.18472222222222223,
+      "wrongful_accusation": 0.005555555555555556,
+      "false_attr": 0.2847222222222222,
+      "mean_collateral": 0.0125
+     },
+     {
+      "label": "FAR~5%",
+      "far_target": 0.05,
+      "tau": 0.6005059599876403,
+      "far_actual": 0.050011418131993605,
+      "detection_recall": 0.25555555555555554,
+      "wrongful_accusation": 0.019444444444444445,
+      "false_attr": 0.2847222222222222,
+      "mean_collateral": 0.044444444444444446
+     },
+     {
+      "label": "FAR~10%",
+      "far_target": 0.1,
+      "tau": 0.574270486831665,
+      "far_actual": 0.10002283626398721,
+      "detection_recall": 0.35833333333333334,
+      "wrongful_accusation": 0.04722222222222222,
+      "false_attr": 0.2847222222222222,
+      "mean_collateral": 0.1486111111111111
+     },
+     {
+      "label": "EER",
+      "far_target": null,
+      "tau": 0.4748010039329529,
+      "far_actual": 0.47408084037451476,
+      "detection_recall": 0.6777777777777778,
+      "wrongful_accusation": 0.17916666666666667,
+      "false_attr": 0.2847222222222222,
+      "mean_collateral": 3.525
+     }
+    ],
+    "cached_check": {
+     "detect": 0.6777777777777778,
+     "wrongful": 0.17916666666666667,
+     "false_attr": 0.2847222222222222,
+     "collateral": 3.525
+    },
+    "reproduced_at_eer": {
+     "detect": 0.6777777777777778,
+     "wrongful": 0.17916666666666667,
+     "false_attr": 0.2847222222222222,
+     "collateral": 3.525
+    }
+   }
+  },
+  "irodori120": {
+   "animeva": {
+    "n_clones": 720,
+    "n_target_speakers": 120,
+    "n_gallery": 1100,
+    "eer_threshold": 0.45531249046325684,
+    "eer_far": 0.21808632107787165,
+    "false_attr_rate": 0.2263888888888889,
+    "operating_points": [
+     {
+      "label": "FAR~1%",
+      "far_target": 0.01,
+      "tau": 0.5636604738235477,
+      "far_actual": 0.010047956154373145,
+      "detection_recall": 0.3472222222222222,
+      "wrongful_accusation": 0.004166666666666667,
+      "false_attr": 0.2263888888888889,
+      "mean_collateral": 0.004166666666666667
+     },
+     {
+      "label": "FAR~2%",
+      "far_target": 0.02,
+      "tau": 0.5454491567611695,
+      "far_actual": 0.02009591230874629,
+      "detection_recall": 0.39305555555555555,
+      "wrongful_accusation": 0.004166666666666667,
+      "false_attr": 0.2263888888888889,
+      "mean_collateral": 0.006944444444444444
+     },
+     {
+      "label": "FAR~5%",
+      "far_target": 0.05,
+      "tau": 0.5146926462650298,
+      "far_actual": 0.050011418131993605,
+      "detection_recall": 0.48333333333333334,
+      "wrongful_accusation": 0.009722222222222222,
+      "false_attr": 0.2263888888888889,
+      "mean_collateral": 0.03333333333333333
+     },
+     {
+      "label": "FAR~10%",
+      "far_target": 0.1,
+      "tau": 0.48953977227211004,
+      "far_actual": 0.10002283626398721,
+      "detection_recall": 0.5791666666666667,
+      "wrongful_accusation": 0.020833333333333332,
+      "false_attr": 0.2263888888888889,
+      "mean_collateral": 0.075
+     },
+     {
+      "label": "EER",
+      "far_target": null,
+      "tau": 0.45531249046325684,
+      "far_actual": 0.21808632107787165,
+      "detection_recall": 0.675,
+      "wrongful_accusation": 0.04722222222222222,
+      "false_attr": 0.2263888888888889,
+      "mean_collateral": 0.2361111111111111
+     }
+    ],
+    "cached_check": {
+     "detect": 0.675,
+     "wrongful": 0.04722222222222222,
+     "false_attr": 0.2263888888888889,
+     "collateral": 0.2361111111111111
+    },
+    "reproduced_at_eer": {
+     "detect": 0.675,
+     "wrongful": 0.04722222222222222,
+     "false_attr": 0.2263888888888889,
+     "collateral": 0.2361111111111111
+    }
+   },
+   "ecapa": {
+    "n_clones": 720,
+    "n_target_speakers": 120,
+    "n_gallery": 1100,
+    "eer_threshold": 0.4748010039329529,
+    "eer_far": 0.47408084037451476,
+    "false_attr_rate": 0.4263888888888889,
+    "operating_points": [
+     {
+      "label": "FAR~1%",
+      "far_target": 0.01,
+      "tau": 0.6389723682403565,
+      "far_actual": 0.010047956154373145,
+      "detection_recall": 0.06111111111111111,
+      "wrongful_accusation": 0.005555555555555556,
+      "false_attr": 0.4263888888888889,
+      "mean_collateral": 0.006944444444444444
+     },
+     {
+      "label": "FAR~2%",
+      "far_target": 0.02,
+      "tau": 0.6241226053237915,
+      "far_actual": 0.02009591230874629,
+      "detection_recall": 0.08888888888888889,
+      "wrongful_accusation": 0.009722222222222222,
+      "false_attr": 0.4263888888888889,
+      "mean_collateral": 0.011111111111111112
+     },
+     {
+      "label": "FAR~5%",
+      "far_target": 0.05,
+      "tau": 0.6005059599876403,
+      "far_actual": 0.050011418131993605,
+      "detection_recall": 0.14444444444444443,
+      "wrongful_accusation": 0.019444444444444445,
+      "false_attr": 0.4263888888888889,
+      "mean_collateral": 0.03611111111111111
+     },
+     {
+      "label": "FAR~10%",
+      "far_target": 0.1,
+      "tau": 0.574270486831665,
+      "far_actual": 0.10002283626398721,
+      "detection_recall": 0.19444444444444445,
+      "wrongful_accusation": 0.043055555555555555,
+      "false_attr": 0.4263888888888889,
+      "mean_collateral": 0.12361111111111112
+     },
+     {
+      "label": "EER",
+      "far_target": null,
+      "tau": 0.4748010039329529,
+      "far_actual": 0.47408084037451476,
+      "detection_recall": 0.5097222222222222,
+      "wrongful_accusation": 0.1763888888888889,
+      "false_attr": 0.4263888888888889,
+      "mean_collateral": 2.6847222222222222
+     }
+    ],
+    "cached_check": {
+     "detect": 0.5097222222222222,
+     "wrongful": 0.1763888888888889,
+     "false_attr": 0.4263888888888889,
+     "collateral": 2.6847222222222222
+    },
+    "reproduced_at_eer": {
+     "detect": 0.5097222222222222,
+     "wrongful": 0.1763888888888889,
+     "false_attr": 0.4263888888888889,
+     "collateral": 2.6847222222222222
+    }
+   }
+  }
+ }
+}

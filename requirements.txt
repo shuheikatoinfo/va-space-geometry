@@ -1,0 +1,44 @@
+# Pinned dependencies for the voice-actor speaker-embedding geometry study.
+# Python 3.10 (developed/tested on CPython 3.10.18).
+# Versions are the exact ones used to produce the reported numbers, introspected
+# from the working environment. Install with:  pip install -r requirements.txt
+#
+# GPU note: torch/torchaudio were built against CUDA 12.8 (local build tag
+# "+cu128", developed on an RTX 5090). Install the matching CUDA wheels from
+# the PyTorch index, e.g.:
+#   pip install torch==2.10.0 torchaudio==2.10.0 \
+#       --index-url https://download.pytorch.org/whl/cu128
+# The pins below give the PyPI-compatible versions; the analysis code
+# (Stage 1) also runs CPU-only on precomputed embeddings.
+
+# ---- Core: deep learning / embeddings ----
+torch==2.10.0
+torchaudio==2.10.0
+transformers==5.5.3
+speechbrain==1.0.2
+
+# ---- Core: numerics, analysis & plotting ----
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.7.2
+librosa==0.10.2.post1
+soundfile==0.13.1
+matplotlib==3.9.4
+umap-learn==0.5.12
+pandas==2.3.3
+tqdm==4.67.3
+
+# ---- Optional: additional encoders / clone systems / audits ----
+modelscope==1.17.1          # CAM++ (3D-Speaker / CN-Celeb) speaker embedding
+huggingface-hub==1.10.1     # model/checkpoint downloads
+faster-whisper==1.2.1       # ASR for GPT-SoVITS prompt transcripts
+Resemblyzer==0.1.4          # independent VC-fidelity speaker-similarity check
+panns-inference==0.1.1      # BGM/audio-tagging audit
+pyloudnorm==0.2.0           # loudness normalization (mastering-normalized rerun)
+# ReDimNet-b2 is loaded at runtime via torch.hub ("IDRnD/ReDimNet"); no pip package.
+
+# ---- Optional: HTTP scraping (Phase 0 collection only) ----
+requests==2.32.5
+beautifulsoup4==4.14.3
+# lxml is an optional bs4 parser (not installed in the reference env; bs4 falls
+# back to the stdlib html.parser).

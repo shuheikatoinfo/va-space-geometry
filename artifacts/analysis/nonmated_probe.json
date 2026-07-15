@@ -1,0 +1,315 @@
+{
+ "manifest": "<local-path-redacted>",
+ "n_manifest_targets": 65,
+ "animeva": {
+  "n_gallery": 1100,
+  "threshold": 0.45531249046325684,
+  "threshold_xfile": 0.4396246671676636,
+  "n_xfile_actors": 900,
+  "real_baseline": {
+   "n_probes": 756,
+   "n_target_speakers": 65,
+   "false_alarm_rate": 0.1746031746031746,
+   "false_alarm_rate_xfile": 0.23941798941798942,
+   "any_probe_false_alarm_per_speaker": 0.676923076923077,
+   "any_probe_false_alarm_per_speaker_xfile": 0.7692307692307693,
+   "mean_collateral": 0.2328042328042328,
+   "mean_collateral_xfile": 0.3544973544973545,
+   "top1_score": {
+    "mean": 0.39588828798797393,
+    "p50": 0.39533062279224396,
+    "p90": 0.4778423011302948,
+    "p99": 0.5468024939298634,
+    "max": 0.5988205671310425
+   },
+   "top1_margin_vs_thr": {
+    "mean": -0.05942420247528288,
+    "p50": -0.05998186767101288,
+    "p90": 0.022529810667037964,
+    "p99": 0.0914900034666065,
+    "max": 0.14350807666778564
+   },
+   "top1_margin_vs_thr_xfile": {
+    "mean": -0.043736379179689616,
+    "p90": 0.038217633962631226,
+    "max": 0.1591958999633789
+   },
+   "ci95": {
+    "fa": [
+     0.13000743192719447,
+     0.22739660728357536
+    ],
+    "fa_xf": [
+     0.18700613324429294,
+     0.2974096338610995
+    ],
+    "collat": [
+     0.1591806135752867,
+     0.3241269849759583
+    ],
+    "collat_xf": [
+     0.24895070238915895,
+     0.4744243383086697
+    ]
+   },
+   "threshold": 0.45531249046325684,
+   "threshold_xfile": 0.4396246671676636
+  },
+  "irodori": {
+   "n_probes": 390,
+   "n_target_speakers": 65,
+   "false_alarm_rate": 0.1794871794871795,
+   "false_alarm_rate_xfile": 0.24358974358974358,
+   "any_probe_false_alarm_per_speaker": 0.4461538461538462,
+   "any_probe_false_alarm_per_speaker_xfile": 0.6153846153846154,
+   "mean_collateral": 0.24871794871794872,
+   "mean_collateral_xfile": 0.36923076923076925,
+   "top1_score": {
+    "mean": 0.3975255888624069,
+    "p50": 0.39299263060092926,
+    "p90": 0.4822541564702988,
+    "p99": 0.5655150282382968,
+    "max": 0.6462756395339966
+   },
+   "top1_margin_vs_thr": {
+    "mean": -0.057786901600849934,
+    "p50": -0.062319859862327576,
+    "p90": 0.026941666007041964,
+    "p99": 0.11020253777504,
+    "max": 0.19096314907073975
+   },
+   "top1_margin_vs_thr_xfile": {
+    "mean": -0.04209907830525667,
+    "p90": 0.04262948930263522,
+    "max": 0.206650972366333
+   },
+   "ci95": {
+    "fa": [
+     0.12051282051282051,
+     0.24358974358974358
+    ],
+    "fa_xf": [
+     0.1794871794871795,
+     0.31032051282051276
+    ],
+    "collat": [
+     0.15634615384615386,
+     0.36673076923076914
+    ],
+    "collat_xf": [
+     0.2512820512820513,
+     0.5051282051282051
+    ]
+   },
+   "threshold": 0.45531249046325684,
+   "threshold_xfile": 0.4396246671676636
+  },
+  "seedvc": {
+   "n_probes": 390,
+   "n_target_speakers": 65,
+   "false_alarm_rate": 0.1358974358974359,
+   "false_alarm_rate_xfile": 0.19230769230769232,
+   "any_probe_false_alarm_per_speaker": 0.35384615384615387,
+   "any_probe_false_alarm_per_speaker_xfile": 0.47692307692307695,
+   "mean_collateral": 0.14871794871794872,
+   "mean_collateral_xfile": 0.23333333333333334,
+   "top1_score": {
+    "mean": 0.38662422043390765,
+    "p50": 0.38099274039268494,
+    "p90": 0.47168128192424774,
+    "p99": 0.5364307969808579,
+    "max": 0.5904691815376282
+   },
+   "top1_margin_vs_thr": {
+    "mean": -0.0686882700293492,
+    "p50": -0.0743197500705719,
+    "p90": 0.01636879146099091,
+    "p99": 0.08111830651760107,
+    "max": 0.13515669107437134
+   },
+   "top1_margin_vs_thr_xfile": {
+    "mean": -0.053000446733755945,
+    "p90": 0.03205661475658417,
+    "max": 0.1508445143699646
+   },
+   "ci95": {
+    "fa": [
+     0.07692307692307693,
+     0.2
+    ],
+    "fa_xf": [
+     0.12557692307692309,
+     0.258974358974359
+    ],
+    "collat": [
+     0.08205128205128205,
+     0.2230769230769231
+    ],
+    "collat_xf": [
+     0.14358974358974358,
+     0.32564102564102565
+    ]
+   },
+   "threshold": 0.45531249046325684,
+   "threshold_xfile": 0.4396246671676636
+  }
+ },
+ "ecapa": {
+  "n_gallery": 1100,
+  "threshold": 0.4748010039329529,
+  "threshold_xfile": 0.4622148275375366,
+  "n_xfile_actors": 900,
+  "real_baseline": {
+   "n_probes": 756,
+   "n_target_speakers": 65,
+   "false_alarm_rate": 0.4894179894179894,
+   "false_alarm_rate_xfile": 0.5555555555555556,
+   "any_probe_false_alarm_per_speaker": 0.8769230769230769,
+   "any_probe_false_alarm_per_speaker_xfile": 0.9076923076923077,
+   "mean_collateral": 3.921957671957672,
+   "mean_collateral_xfile": 5.205026455026455,
+   "top1_score": {
+    "mean": 0.4728336684484646,
+    "p50": 0.47256039083004,
+    "p90": 0.5768118798732758,
+    "p99": 0.6269126713275912,
+    "max": 0.695172905921936
+   },
+   "top1_margin_vs_thr": {
+    "mean": -0.0019673354844883004,
+    "p50": -0.002240613102912903,
+    "p90": 0.10201087594032288,
+    "p99": 0.15211166739463827,
+    "max": 0.22037190198898315
+   },
+   "top1_margin_vs_thr_xfile": {
+    "mean": 0.010618840910927959,
+    "p90": 0.11459705233573914,
+    "max": 0.23295807838439941
+   },
+   "ci95": {
+    "fa": [
+     0.40518944358393905,
+     0.5701413223425537
+    ],
+    "fa_xf": [
+     0.47184607213313773,
+     0.6360329829172142
+    ],
+    "collat": [
+     2.652173913043478,
+     5.3383955585454945
+    ],
+    "collat_xf": [
+     3.5688296003513393,
+     6.968550531914893
+    ]
+   },
+   "threshold": 0.4748010039329529,
+   "threshold_xfile": 0.4622148275375366
+  },
+  "irodori": {
+   "n_probes": 390,
+   "n_target_speakers": 65,
+   "false_alarm_rate": 0.4641025641025641,
+   "false_alarm_rate_xfile": 0.5358974358974359,
+   "any_probe_false_alarm_per_speaker": 0.7230769230769231,
+   "any_probe_false_alarm_per_speaker_xfile": 0.8461538461538461,
+   "mean_collateral": 4.728205128205128,
+   "mean_collateral_xfile": 6.294871794871795,
+   "top1_score": {
+    "mean": 0.47527527778576584,
+    "p50": 0.46903257071971893,
+    "p90": 0.5807561874389648,
+    "p99": 0.633708291053772,
+    "max": 0.6862003803253174
+   },
+   "top1_margin_vs_thr": {
+    "mean": 0.0004742738528129382,
+    "p50": -0.005768433213233948,
+    "p90": 0.10595518350601198,
+    "p99": 0.1589072871208191,
+    "max": 0.2113993763923645
+   },
+   "top1_margin_vs_thr_xfile": {
+    "mean": 0.013060450248229197,
+    "p90": 0.11854135990142824,
+    "max": 0.22398555278778076
+   },
+   "ci95": {
+    "fa": [
+     0.3666025641025641,
+     0.5641025641025641
+    ],
+    "fa_xf": [
+     0.44358974358974357,
+     0.6282051282051282
+    ],
+    "collat": [
+     3.097115384615385,
+     6.431217948717949
+    ],
+    "collat_xf": [
+     4.17673076923077,
+     8.441153846153846
+    ]
+   },
+   "threshold": 0.4748010039329529,
+   "threshold_xfile": 0.4622148275375366
+  },
+  "seedvc": {
+   "n_probes": 390,
+   "n_target_speakers": 65,
+   "false_alarm_rate": 0.5487179487179488,
+   "false_alarm_rate_xfile": 0.5923076923076923,
+   "any_probe_false_alarm_per_speaker": 0.7384615384615385,
+   "any_probe_false_alarm_per_speaker_xfile": 0.7846153846153846,
+   "mean_collateral": 5.941025641025641,
+   "mean_collateral_xfile": 7.892307692307693,
+   "top1_score": {
+    "mean": 0.48012929638990987,
+    "p50": 0.48561403155326843,
+    "p90": 0.5917179584503174,
+    "p99": 0.6288978016376495,
+    "max": 0.6403897404670715
+   },
+   "top1_margin_vs_thr": {
+    "mean": 0.0053282924569570105,
+    "p50": 0.010813027620315552,
+    "p90": 0.11691695451736452,
+    "p99": 0.15409679770469667,
+    "max": 0.16558873653411865
+   },
+   "top1_margin_vs_thr_xfile": {
+    "mean": 0.01791446885237327,
+    "p90": 0.12950313091278076,
+    "max": 0.1781749129295349
+   },
+   "ci95": {
+    "fa": [
+     0.43333333333333335,
+     0.6513461538461538
+    ],
+    "fa_xf": [
+     0.4846153846153846,
+     0.6871794871794872
+    ],
+    "collat": [
+     3.9124358974358975,
+     8.07974358974359
+    ],
+    "collat_xf": [
+     5.309551282051282,
+     10.628589743589743
+    ]
+   },
+   "threshold": 0.4748010039329529,
+   "threshold_xfile": 0.4622148275375366
+  }
+ },
+ "caveats": [
+  "Freelance target audio is a different channel (YouTube/personal-site codecs) than the agency-studio gallery; channel mismatch can deflate similarity to agency centroids, so the real-segment baseline false-alarm rates may be optimistic (too low).",
+  "The clones are synthesizer-channel audio (Irodori-TTS / Seed-VC output), not freelance-channel, so the clone false-alarm rates are less affected by the freelance channel confound than the real baseline; the clone-vs-real gap is therefore a lower bound on the effect of the cloning process under a shared-channel comparison.",
+  "Thresholds are the real-vs-real EER operating points of the mated clone probe (centered-cosine space, agency gallery); thr uses same-file genuine trials (historical protocol), thr_xfile uses cross-file genuine trials (deployment-realistic)."
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "ecapa": {
+  "model": "ecapa",
+  "global_eer": 0.2742363214492798,
+  "global_threshold": 0.6864725351333618,
+  "per_speaker_threshold_std": 0.05290656511120643,
+  "per_speaker_threshold_iqr": 0.06986713409423828,
+  "per_speaker_threshold_range_5_95": [
+   0.5996405124664307,
+   0.7526475071907044
+  ],
+  "mean_per_speaker_eer": 0.2469349106887057,
+  "adaptive_gain_eer": 0.027301410760574074,
+  "at_global_thr_frac_speakers_FRR>20%": 0.6298200514138818,
+  "at_global_thr_frac_speakers_FAR>20%": 0.4704370179948586,
+  "abstain_error_at_coverage": {
+   "100%": 0.13288431622118513,
+   "90%": 0.10243365873779733,
+   "75%": 0.06861358600857964,
+   "50%": 0.043982463583651536
+  }
+ },
+ "animeva": {
+  "model": "animeva",
+  "global_eer": 0.10417550802230835,
+  "global_threshold": 0.5725973844528198,
+  "per_speaker_threshold_std": 0.06326928548667894,
+  "per_speaker_threshold_iqr": 0.06930145621299744,
+  "per_speaker_threshold_range_5_95": [
+   0.5100646078586578,
+   0.7017096221446991
+  ],
+  "mean_per_speaker_eer": 0.07429673959961562,
+  "adaptive_gain_eer": 0.029878768422692728,
+  "at_global_thr_frac_speakers_FRR>20%": 0.15681233933161953,
+  "at_global_thr_frac_speakers_FAR>20%": 0.17823479005998286,
+  "abstain_error_at_coverage": {
+   "100%": 0.02701173808513647,
+   "90%": 0.008897880615191216,
+   "75%": 0.006104747089049168,
+   "50%": 0.00731862537123462
+  }
+ }
+}

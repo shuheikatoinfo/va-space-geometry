@@ -1,0 +1,13 @@
+{
+ "clone_dir": "<local-path-redacted>",
+ "n_clones": 720,
+ "n_targets": 120,
+ "ecapa_clone_to_target_mean": 0.6652068984177377,
+ "ecapa_clone_to_target_std": 0.09290143458683679,
+ "ecapa_real_same_speaker_mean": 0.631822324055247,
+ "resemblyzer_clone_to_target_mean": 0.8255696335600482,
+ "resemblyzer_clone_to_target_std": 0.05078650219328762,
+ "resemblyzer_clone_p10": 0.7566283345222473,
+ "resemblyzer_clone_p90": 0.8839088678359985,
+ "resemblyzer_real_same_speaker_mean": 0.8421965758005778
+}

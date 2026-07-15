@@ -1,0 +1,50 @@
+{
+ "irodori": {
+  "label": "irodori",
+  "model": "animeva",
+  "enroll": "multivec K=8",
+  "n": 720,
+  "detectable": 0.675,
+  "false_attr": 0.22361111111111112,
+  "ci_det": [
+   0.6069444444444444,
+   0.7375347222222223
+  ],
+  "ci_false": [
+   0.17222222222222222,
+   0.28055555555555556
+  ]
+ },
+ "knnvc": {
+  "label": "knnvc",
+  "model": "animeva",
+  "enroll": "multivec K=8",
+  "n": 168,
+  "detectable": 0.39880952380952384,
+  "false_attr": 0.4642857142857143,
+  "ci_det": [
+   0.2743618831537153,
+   0.529078317373461
+  ],
+  "ci_false": [
+   0.3275810755336617,
+   0.5930232558139535
+  ]
+ },
+ "gptsovits": {
+  "label": "gptsovits",
+  "model": "animeva",
+  "enroll": "multivec K=8",
+  "n": 240,
+  "detectable": 0.675,
+  "false_attr": 0.24166666666666667,
+  "ci_det": [
+   0.5416666666666666,
+   0.7916666666666666
+  ],
+  "ci_false": [
+   0.15,
+   0.35
+  ]
+ }
+}

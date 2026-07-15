@@ -1,0 +1,143 @@
+{
+ "_meta": {
+  "note": "Table-2 (calibrated_eval.py) closed-set misID + 1:N EER, recomputed under a session-disjoint constraint: a query's same-speaker match must come from a DIFFERENT source file (source_sha256). Impostor (different-speaker) scores unchanged. Population: agency-only (drop freelance:), n=45994 segments, matching Table 2. session_disjoint=False column reproduces the published Table-2 values as a sanity check.",
+  "session_key": "source_sha256 (per source file / recording); joined to npz by segment_id. The npz `recording_source` key is agency-level (1 per speaker) and cannot define within-speaker sessions, so the per-file source_sha256 is used.",
+  "misid_def": "fraction of query segments whose best different-speaker score exceeds its best (session-disjoint) same-speaker score (closed-set rank-1 misID).",
+  "table2_same_session_reference": {
+   "ecapa": {
+    "raw": {
+     "misid": 14.3,
+     "eer": 27.0
+    },
+    "asnorm": {
+     "misid": 12.6,
+     "eer": 15.9
+    }
+   },
+   "animeva": {
+    "raw": {
+     "misid": 2.5,
+     "eer": 10.1
+    },
+    "asnorm": {
+     "misid": 2.2,
+     "eer": 3.9
+    }
+   },
+   "ens_sv4": {
+    "raw": {
+     "misid": 5.1,
+     "eer": 15.6
+    },
+    "asnorm": {
+     "misid": 4.4,
+     "eer": 7.0
+    }
+   }
+  }
+ },
+ "results": {
+  "ecapa": {
+   "raw": {
+    "same_session": {
+     "misid": 0.14325781623690045,
+     "eer": 0.2703999876976013,
+     "rank1": 0.8567421837630995,
+     "n_query_usable": 45994,
+     "n_spk_usable": 1103
+    },
+    "session_disjoint": {
+     "misid": 0.38527334490090176,
+     "eer": 0.4174500107765198,
+     "rank1": 0.6147266550990982,
+     "n_query_usable": 40919,
+     "n_spk_usable": 912
+    }
+   },
+   "asnorm": {
+    "same_session": {
+     "misid": 0.12600034794711204,
+     "eer": 0.15904998779296875,
+     "rank1": 0.873999652052888,
+     "n_query_usable": 45984,
+     "n_spk_usable": 1103
+    },
+    "session_disjoint": {
+     "misid": 0.3540358964299725,
+     "eer": 0.36685001850128174,
+     "rank1": 0.6459641035700274,
+     "n_query_usable": 40784,
+     "n_spk_usable": 912
+    }
+   }
+  },
+  "animeva": {
+   "raw": {
+    "same_session": {
+     "misid": 0.025394616689133367,
+     "eer": 0.10052500665187836,
+     "rank1": 0.9746053833108667,
+     "n_query_usable": 45994,
+     "n_spk_usable": 1103
+    },
+    "session_disjoint": {
+     "misid": 0.18592829736797087,
+     "eer": 0.2721250057220459,
+     "rank1": 0.8140717026320291,
+     "n_query_usable": 40919,
+     "n_spk_usable": 912
+    }
+   },
+   "asnorm": {
+    "same_session": {
+     "misid": 0.021828934208809846,
+     "eer": 0.03902500495314598,
+     "rank1": 0.9781710657911902,
+     "n_query_usable": 45994,
+     "n_spk_usable": 1103
+    },
+    "session_disjoint": {
+     "misid": 0.16709448722650042,
+     "eer": 0.19572500884532928,
+     "rank1": 0.8329055127734996,
+     "n_query_usable": 40905,
+     "n_spk_usable": 912
+    }
+   }
+  },
+  "ens_sv4": {
+   "raw": {
+    "same_session": {
+     "misid": 0.05055007174848893,
+     "eer": 0.156374990940094,
+     "rank1": 0.9480367004391878,
+     "n_query_usable": 45994,
+     "n_spk_usable": 1103
+    },
+    "session_disjoint": {
+     "misid": 0.25176568342334854,
+     "eer": 0.33812499046325684,
+     "rank1": 0.7466458124587599,
+     "n_query_usable": 40919,
+     "n_spk_usable": 912
+    }
+   },
+   "asnorm": {
+    "same_session": {
+     "misid": 0.04379022438684989,
+     "eer": 0.06954999268054962,
+     "rank1": 0.9562097756131501,
+     "n_query_usable": 45992,
+     "n_spk_usable": 1103
+    },
+    "session_disjoint": {
+     "misid": 0.23044148975244252,
+     "eer": 0.25362497568130493,
+     "rank1": 0.7695585102475575,
+     "n_query_usable": 40839,
+     "n_spk_usable": 912
+    }
+   }
+  }
+ }
+}

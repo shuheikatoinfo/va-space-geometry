@@ -1,0 +1,66 @@
+{
+ "meta": {
+  "mos_model": "sarulab-speech/UTMOSv2 (fusion_stage3, 5-fold ensemble folds=[0, 1, 2, 3, 4], s42), 2024",
+  "sample_per_group": 144,
+  "seed": 1234,
+  "note": "UTMOSv2 re-score of the UTMOS22-strong naturalness sanity check; DNN-MOS read only as 'clones not degenerate', not a real-vs-clone naturalness comparison."
+ },
+ "mos": {
+  "real": {
+   "n": 144,
+   "mean": 2.5885199652777775,
+   "std": 0.5426325913922967,
+   "median": 2.6578125,
+   "min": 1.0580078125,
+   "max": 3.525390625
+  },
+  "seedvc": {
+   "n": 144,
+   "mean": 2.9419501410590274,
+   "std": 0.39986985868621366,
+   "median": 2.9462890625,
+   "min": 1.5373046875,
+   "max": 3.73203125
+  },
+  "irodori": {
+   "n": 144,
+   "mean": 2.6070421006944446,
+   "std": 0.34931847186315473,
+   "median": 2.59736328125,
+   "min": 1.8091796875,
+   "max": 3.452734375
+  },
+  "gptsovits_v1": {
+   "n": 144,
+   "mean": 2.218862575954861,
+   "std": 0.41175138625568103,
+   "median": 2.26865234375,
+   "min": 1.2314453125,
+   "max": 3.282421875
+  },
+  "gptsovits_v2": {
+   "n": 144,
+   "mean": 2.1940985785590277,
+   "std": 0.4419367533693786,
+   "median": 2.21806640625,
+   "min": 0.90458984375,
+   "max": 3.296875
+  },
+  "gptsovits_v3": {
+   "n": 144,
+   "mean": 2.3933098687065972,
+   "std": 0.3827927014681176,
+   "median": 2.416015625,
+   "min": 1.41787109375,
+   "max": 3.205859375
+  },
+  "gptsovits_v4": {
+   "n": 144,
+   "mean": 2.3610026041666665,
+   "std": 0.36327708762643063,
+   "median": 2.3589843750000004,
+   "min": 1.4986328125,
+   "max": 3.255859375
+  }
+ }
+}

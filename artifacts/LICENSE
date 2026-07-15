@@ -1,0 +1,25 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Shuhei Kato
+
+The derived artifacts in this directory (anonymized, hash-keyed aggregate
+statistics, split definitions, and training-overlap hash sets for the paper
+"A Geometry-Limited Identification Floor and Its Consequences for Voice-Clone
+Attribution in Professional Voice Actors") are licensed under the Creative
+Commons Attribution 4.0 International License.
+
+You are free to share and adapt this material for any purpose, provided you
+give appropriate credit:
+
+  Shuhei Kato, "va-space-geometry" derived artifacts,
+  https://github.com/shuheikatoinfo/va-space-geometry
+
+The full license text is available at:
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+This license applies ONLY to the files in this artifacts/ directory. It grants
+no rights over: the analysis code (see ../LICENSE, MIT); the withheld embedding
+bundle (biometric data, separate Data-Use Agreement); or the underlying audio
+recordings and the voice actors' voices, which are not licensed here.
+
+THE MATERIAL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.

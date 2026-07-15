@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "va-space-geometry: analysis code and anonymized derived artifacts"
+message: "If you use this repository, please cite both the paper and this archived record."
+type: software
+authors:
+  - family-names: Kato
+    given-names: Shuhei
+    email: shuhei@shuheikato.info
+    orcid: "https://orcid.org/0000-0001-5746-6811"
+repository-code: "https://github.com/shuheikatoinfo/va-space-geometry"
+license: MIT
+version: "1.0.0"
+doi: "10.5281/zenodo.XXXXXXX"  # reserved; assigned to the first archived Zenodo release

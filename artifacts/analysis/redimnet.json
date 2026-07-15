@@ -1,0 +1,161 @@
+{
+ "model": "redimnet",
+ "num_segments": 56568,
+ "embedding_dim": 192,
+ "num_speakers": 1168,
+ "k": 10,
+ "phase3_margin": {
+  "rank1_accuracy": 0.925611653231509,
+  "verification_margin_mean": 0.13361462950706482,
+  "verification_margin_median": 0.13729295134544373,
+  "verification_margin_std": 0.09953290969133377,
+  "misidentified_fraction": 0.07438834676849101,
+  "critical_fraction_abs_margin": {
+   "<0.005": 0.01331141281289775,
+   "<0.01": 0.025615188799321172,
+   "<0.02": 0.0535108188375053,
+   "<0.05": 0.13774572196294724
+  },
+  "operational_top1_top2_margin_mean": 0.034431591629981995,
+  "top_competing_speaker_pairs": [
+   [
+    "5f781672a3b39eed | 7200dced024be241",
+    65
+   ],
+   [
+    "d96d2d1e2fc771db | c452c7df6df9b0c5",
+    31
+   ],
+   [
+    "c452c7df6df9b0c5 | 35a662d159e96a68",
+    24
+   ],
+   [
+    "7200dced024be241 | 29dc447c1d546f6b",
+    17
+   ],
+   [
+    "43f5bdc06e30cf48 | 35a662d159e96a68",
+    16
+   ],
+   [
+    "2564a0869018a216 | c452c7df6df9b0c5",
+    16
+   ],
+   [
+    "6ba8c80577140408 | 60fbc35c3b11dcb4",
+    12
+   ],
+   [
+    "5f781672a3b39eed | 35a662d159e96a68",
+    10
+   ],
+   [
+    "5f781672a3b39eed | c452c7df6df9b0c5",
+    10
+   ],
+   [
+    "43f5bdc06e30cf48 | c452c7df6df9b0c5",
+    10
+   ],
+   [
+    "6ba8c80577140408 | 7200dced024be241",
+    10
+   ],
+   [
+    "d96d2d1e2fc771db | 35a662d159e96a68",
+    10
+   ],
+   [
+    "68476bcae99bd01f | 7200dced024be241",
+    9
+   ],
+   [
+    "29dc447c1d546f6b | 35a662d159e96a68",
+    9
+   ],
+   [
+    "2564a0869018a216 | 35a662d159e96a68",
+    9
+   ],
+   [
+    "6ba8c80577140408 | 35a662d159e96a68",
+    8
+   ],
+   [
+    "7200dced024be241 | 4297865a1d32b363",
+    8
+   ],
+   [
+    "ce74959185ed55f5 | 8de468c2357dd82e",
+    7
+   ],
+   [
+    "7108633165198c83 | 8084ba71de0e4c74",
+    7
+   ],
+   [
+    "7200dced024be241 | 35a662d159e96a68",
+    7
+   ],
+   [
+    "29dc447c1d546f6b | c452c7df6df9b0c5",
+    7
+   ],
+   [
+    "c4c7d0db234dd300 | 35a662d159e96a68",
+    7
+   ],
+   [
+    "2d1aa178cfaba856 | 35a662d159e96a68",
+    7
+   ],
+   [
+    "29dc447c1d546f6b | 17acc1183ceffb54",
+    6
+   ],
+   [
+    "bb849c72ef20cf95 | 372a2b0e2be99efd",
+    6
+   ],
+   [
+    "f96e38609f7c3059 | 646f7287fb5df8a8",
+    6
+   ],
+   [
+    "5f781672a3b39eed | 27fafc6425975b67",
+    6
+   ],
+   [
+    "7200dced024be241 | 3a2997e3430678c6",
+    6
+   ],
+   [
+    "68476bcae99bd01f | 35a662d159e96a68",
+    6
+   ],
+   [
+    "7200dced024be241 | 2e93d053b18e0022",
+    6
+   ]
+  ]
+ },
+ "channel_confound": {
+  "num_recording_sources": 70,
+  "nearest_impostor_same_source_fraction": 0.1061554235610239,
+  "chance_same_source_fraction": 0.06425072874623476,
+  "same_source_enrichment": 1.6522057513199,
+  "critical_queries_same_source_fraction": 0.10331108829568789,
+  "margin_mean_when_impostor_same_source": 0.12357233464717865,
+  "margin_mean_when_impostor_diff_source": 0.1348072737455368
+ },
+ "phase4_geometry": {
+  "knn_density_skewness": 0.3138945645230055,
+  "nn_distance_skewness": 0.30846920676664585,
+  "hubness_skewness": 2.1574762695644822,
+  "hubness_skewness_pvalue": 0.0,
+  "hub_count": 2096,
+  "antihub_count": 1260,
+  "antihub_fraction": 0.022274077216801018
+ }
+}

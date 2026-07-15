@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+output/
+
+# never commit secret material (defensive — the salt makes every hash reversible)
+*SALT*
+*salt*
+*.key
+*.pem
+.env
+.env.*
+.netrc
+credentials*
+secrets/

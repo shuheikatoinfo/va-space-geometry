@@ -1,0 +1,72 @@
+{
+ "animeva": {
+  "model": "animeva",
+  "n_fictional": 60,
+  "space": "centered",
+  "threshold": 0.45531249046325684,
+  "false_match_rate": 0.11666666666666667,
+  "n_matches": 7,
+  "match_cos_mean": 0.5012187787464687,
+  "flagged_below_genuine_p10_frac": 0.0,
+  "match_mean_pctile_in_genuine": 0.3063321697713111,
+  "ci95_caption_boot": [
+   0.05,
+   0.2
+  ],
+  "match_cos_max": 0.5279377698898315,
+  "genuine_same_speaker_mean": 0.5684884190559387,
+  "genuine_same_speaker_p10": 0.3604950547218323,
+  "at_crossfile_threshold": {
+   "threshold": 0.4396246671676636,
+   "false_match_rate": 0.15,
+   "n_matches": 9,
+   "match_cos_mean": 0.489131811592314,
+   "flagged_below_genuine_p10_frac": 0.0,
+   "match_mean_pctile_in_genuine": 0.39981455725544734,
+   "ci95_caption_boot": [
+    0.08333333333333333,
+    0.21666666666666667
+   ]
+  }
+ },
+ "ecapa": {
+  "model": "ecapa",
+  "n_fictional": 60,
+  "space": "centered",
+  "threshold": 0.4748010039329529,
+  "false_match_rate": 0.16666666666666666,
+  "n_matches": 10,
+  "match_cos_mean": 0.5475299745798111,
+  "flagged_below_genuine_p10_frac": 0.0,
+  "match_mean_pctile_in_genuine": 0.650262617035853,
+  "ci95_caption_boot": [
+   0.03333333333333333,
+   0.3333333333333333
+  ],
+  "match_cos_max": 0.6109535098075867,
+  "genuine_same_speaker_mean": 0.4668622314929962,
+  "genuine_same_speaker_p10": 0.2403469353914261,
+  "at_crossfile_threshold": {
+   "threshold": 0.4622148275375366,
+   "false_match_rate": 0.26666666666666666,
+   "n_matches": 16,
+   "match_cos_mean": 0.5178025756031275,
+   "flagged_below_genuine_p10_frac": 0.0,
+   "match_mean_pctile_in_genuine": 0.6694193324061196,
+   "ci95_caption_boot": [
+    0.11666666666666667,
+    0.45
+   ]
+  }
+ },
+ "cross_encoder": {
+  "models": [
+   "animeva",
+   "ecapa"
+  ],
+  "n_common": 60,
+  "nn_agreement_all": 0.03333333333333333,
+  "n_flagged_by_both": 0,
+  "nn_agreement_flagged_by_both": NaN
+ }
+}

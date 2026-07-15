@@ -1,0 +1,17 @@
+{
+ "model": "animeva",
+ "n_names": 1838,
+ "n_homonym_names": 1,
+ "n_speakers": 1103,
+ "impostor_centroid_cos_mean": 0.07384959608316422,
+ "impostor_centroid_cos_p999": 0.5424552707672178,
+ "impostor_centroid_cos_max": 0.9999999403953552,
+ "flagged_pairs": {
+  "0.7": 7,
+  "0.8": 1,
+  "0.9": 1
+ },
+ "n_dropped_speakers": 6,
+ "misID_floor_full": 0.025394616689133367,
+ "misID_floor_dedup": 0.024081641572518082
+}

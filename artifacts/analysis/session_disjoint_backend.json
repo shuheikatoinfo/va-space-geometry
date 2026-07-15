@@ -1,0 +1,330 @@
+{
+ "_meta": {
+  "protocol": "Speaker-disjoint 55/45 splits (seeds 0..n_splits-1, identical scheme to verification_metrics.py/verification_plda.py). Back-ends (cosine center+LN, LDA-150+cos, WCCN+cos, two-cov PLDA-LLR) trained on the 55% train-half speakers, evaluated on the 45% eval half (agency-only, freelance: dropped). Closed-set rank-1 misID with SESSION-DISJOINT genuine trials: S_same = max score over the query speaker's own segments from a DIFFERENT source file (source_sha256 via segments.jsonl segment_id join); S_diff = max over other speakers' segments (unchanged). Queries whose eval-half speaker has segments from only one source file are dropped (counted per back-end/split).",
+  "session_key": "source_sha256 (per source file), NOT recording_source (agency-level)",
+  "misid_def": "fraction of usable queries with best different-speaker score > best session-disjoint same-speaker score"
+ },
+ "results": {
+  "ens_sv4": {
+   "n_splits": 3,
+   "n_missing_sha": 0,
+   "splits": [
+    {
+     "n_eval_spk": 497,
+     "n_eval_seg": 20303,
+     "cosine": {
+      "misid": 0.21185357995889573,
+      "n_query_used": 18003,
+      "n_query_dropped": 2300
+     },
+     "lda": {
+      "misid": 0.1297561517524857,
+      "n_query_used": 18003,
+      "n_query_dropped": 2300
+     },
+     "wccn": {
+      "misid": 0.18091429206243403,
+      "n_query_used": 18003,
+      "n_query_dropped": 2300
+     },
+     "plda": {
+      "misid": 0.1277009387324335,
+      "n_query_used": 18003,
+      "n_query_dropped": 2300
+     },
+     "n_eval_spk_multisession": 409
+    },
+    {
+     "n_eval_spk": 497,
+     "n_eval_seg": 20910,
+     "cosine": {
+      "misid": 0.21585693938914385,
+      "n_query_used": 18957,
+      "n_query_dropped": 1953
+     },
+     "lda": {
+      "misid": 0.13409294719628634,
+      "n_query_used": 18957,
+      "n_query_dropped": 1953
+     },
+     "wccn": {
+      "misid": 0.18067204726486258,
+      "n_query_used": 18957,
+      "n_query_dropped": 1953
+     },
+     "plda": {
+      "misid": 0.13235216542701905,
+      "n_query_used": 18957,
+      "n_query_dropped": 1953
+     },
+     "n_eval_spk_multisession": 419
+    },
+    {
+     "n_eval_spk": 497,
+     "n_eval_seg": 20954,
+     "cosine": {
+      "misid": 0.2108973339693645,
+      "n_query_used": 18867,
+      "n_query_dropped": 2087
+     },
+     "lda": {
+      "misid": 0.12619918376000425,
+      "n_query_used": 18867,
+      "n_query_dropped": 2087
+     },
+     "wccn": {
+      "misid": 0.18079185880108126,
+      "n_query_used": 18867,
+      "n_query_dropped": 2087
+     },
+     "plda": {
+      "misid": 0.1297503577675306,
+      "n_query_used": 18867,
+      "n_query_dropped": 2087
+     },
+     "n_eval_spk_multisession": 417
+    }
+   ],
+   "cosine": {
+    "misid": 0.2128692844391347,
+    "misid_std": 0.002148358004517143,
+    "n_query_used_mean": 18609.0,
+    "n_query_dropped_mean": 2113.3333333333335
+   },
+   "lda": {
+    "misid": 0.1300160942362588,
+    "misid_std": 0.0032278530396274855,
+    "n_query_used_mean": 18609.0,
+    "n_query_dropped_mean": 2113.3333333333335
+   },
+   "wccn": {
+    "misid": 0.18079273270945928,
+    "misid_std": 9.889795506648527e-05,
+    "n_query_used_mean": 18609.0,
+    "n_query_dropped_mean": 2113.3333333333335
+   },
+   "plda": {
+    "misid": 0.12993448730899437,
+    "misid_std": 0.0019033138131753407,
+    "n_query_used_mean": 18609.0,
+    "n_query_dropped_mean": 2113.3333333333335
+   },
+   "n_eval_spk_mean": 497.0,
+   "n_eval_spk_multisession_mean": 415.0
+  },
+  "animeva": {
+   "n_splits": 3,
+   "n_missing_sha": 0,
+   "splits": [
+    {
+     "n_eval_spk": 497,
+     "n_eval_seg": 20303,
+     "cosine": {
+      "misid": 0.14547575404099317,
+      "n_query_used": 18003,
+      "n_query_dropped": 2300
+     },
+     "lda": {
+      "misid": 0.14647558740209965,
+      "n_query_used": 18003,
+      "n_query_dropped": 2300
+     },
+     "wccn": {
+      "misid": 0.14430928178636893,
+      "n_query_used": 18003,
+      "n_query_dropped": 2300
+     },
+     "plda": {
+      "misid": 0.13536632783424984,
+      "n_query_used": 18003,
+      "n_query_dropped": 2300
+     },
+     "n_eval_spk_multisession": 409
+    },
+    {
+     "n_eval_spk": 497,
+     "n_eval_seg": 20910,
+     "cosine": {
+      "misid": 0.1484412090520652,
+      "n_query_used": 18957,
+      "n_query_dropped": 1953
+     },
+     "lda": {
+      "misid": 0.15229202932953526,
+      "n_query_used": 18957,
+      "n_query_dropped": 1953
+     },
+     "wccn": {
+      "misid": 0.1481247032758348,
+      "n_query_used": 18957,
+      "n_query_dropped": 1953
+     },
+     "plda": {
+      "misid": 0.1377855145856412,
+      "n_query_used": 18957,
+      "n_query_dropped": 1953
+     },
+     "n_eval_spk_multisession": 419
+    },
+    {
+     "n_eval_spk": 497,
+     "n_eval_seg": 20954,
+     "cosine": {
+      "misid": 0.14856627974770764,
+      "n_query_used": 18867,
+      "n_query_dropped": 2087
+     },
+     "lda": {
+      "misid": 0.15100439921556155,
+      "n_query_used": 18867,
+      "n_query_dropped": 2087
+     },
+     "wccn": {
+      "misid": 0.14973233688450735,
+      "n_query_used": 18867,
+      "n_query_dropped": 2087
+     },
+     "plda": {
+      "misid": 0.14300100704934543,
+      "n_query_used": 18867,
+      "n_query_dropped": 2087
+     },
+     "n_eval_spk_multisession": 417
+    }
+   ],
+   "cosine": {
+    "misid": 0.14749441428025534,
+    "misid_std": 0.0014283212852647745,
+    "n_query_used_mean": 18609.0,
+    "n_query_dropped_mean": 2113.3333333333335
+   },
+   "lda": {
+    "misid": 0.14992400531573213,
+    "misid_std": 0.002494418757666689,
+    "n_query_used_mean": 18609.0,
+    "n_query_dropped_mean": 2113.3333333333335
+   },
+   "wccn": {
+    "misid": 0.14738877398223704,
+    "misid_std": 0.0022742875211433835,
+    "n_query_used_mean": 18609.0,
+    "n_query_dropped_mean": 2113.3333333333335
+   },
+   "plda": {
+    "misid": 0.13871761648974548,
+    "misid_std": 0.003185769624342944,
+    "n_query_used_mean": 18609.0,
+    "n_query_dropped_mean": 2113.3333333333335
+   },
+   "n_eval_spk_mean": 497.0,
+   "n_eval_spk_multisession_mean": 415.0
+  },
+  "ecapa": {
+   "n_splits": 3,
+   "n_missing_sha": 0,
+   "splits": [
+    {
+     "n_eval_spk": 497,
+     "n_eval_seg": 20303,
+     "cosine": {
+      "misid": 0.3304449258456924,
+      "n_query_used": 18003,
+      "n_query_dropped": 2300
+     },
+     "lda": {
+      "misid": 0.2726767760928734,
+      "n_query_used": 18003,
+      "n_query_dropped": 2300
+     },
+     "wccn": {
+      "misid": 0.2842304060434372,
+      "n_query_used": 18003,
+      "n_query_dropped": 2300
+     },
+     "plda": {
+      "misid": 0.26106759984447037,
+      "n_query_used": 18003,
+      "n_query_dropped": 2300
+     },
+     "n_eval_spk_multisession": 409
+    },
+    {
+     "n_eval_spk": 497,
+     "n_eval_seg": 20910,
+     "cosine": {
+      "misid": 0.33491586221448544,
+      "n_query_used": 18957,
+      "n_query_dropped": 1953
+     },
+     "lda": {
+      "misid": 0.2710871973413515,
+      "n_query_used": 18957,
+      "n_query_dropped": 1953
+     },
+     "wccn": {
+      "misid": 0.2827979110618769,
+      "n_query_used": 18957,
+      "n_query_dropped": 1953
+     },
+     "plda": {
+      "misid": 0.2579522076277892,
+      "n_query_used": 18957,
+      "n_query_dropped": 1953
+     },
+     "n_eval_spk_multisession": 419
+    },
+    {
+     "n_eval_spk": 497,
+     "n_eval_seg": 20954,
+     "cosine": {
+      "misid": 0.32209678274235437,
+      "n_query_used": 18867,
+      "n_query_dropped": 2087
+     },
+     "lda": {
+      "misid": 0.2669210791328775,
+      "n_query_used": 18867,
+      "n_query_dropped": 2087
+     },
+     "wccn": {
+      "misid": 0.2758255154502571,
+      "n_query_used": 18867,
+      "n_query_dropped": 2087
+     },
+     "plda": {
+      "misid": 0.2550484973763714,
+      "n_query_used": 18867,
+      "n_query_dropped": 2087
+     },
+     "n_eval_spk_multisession": 417
+    }
+   ],
+   "cosine": {
+    "misid": 0.32915252360084407,
+    "misid_std": 0.005312559163596505,
+    "n_query_used_mean": 18609.0,
+    "n_query_dropped_mean": 2113.3333333333335
+   },
+   "lda": {
+    "misid": 0.2702283508557008,
+    "misid_std": 0.002426963100703212,
+    "n_query_used_mean": 18609.0,
+    "n_query_dropped_mean": 2113.3333333333335
+   },
+   "wccn": {
+    "misid": 0.2809512775185237,
+    "misid_std": 0.0036713383620881127,
+    "n_query_used_mean": 18609.0,
+    "n_query_dropped_mean": 2113.3333333333335
+   },
+   "plda": {
+    "misid": 0.258022768282877,
+    "misid_std": 0.002457794775119019,
+    "n_query_used_mean": 18609.0,
+    "n_query_dropped_mean": 2113.3333333333335
+   },
+   "n_eval_spk_mean": 497.0,
+   "n_eval_spk_multisession_mean": 415.0
+  }
+ }
+}

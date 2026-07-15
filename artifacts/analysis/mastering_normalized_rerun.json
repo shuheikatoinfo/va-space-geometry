@@ -1,0 +1,92 @@
+{
+ "ecapa": {
+  "full": {
+   "n": 45994,
+   "misid": 0.14325781623690045,
+   "hubness_skew": 2.176524525002207,
+   "nn_same_source_frac": 0.088294125320694,
+   "chance_same_source": 0.06110835455078945,
+   "same_source_enrichment": 1.4448781344179287
+  },
+  "loudnorm": {
+   "n": 45994,
+   "misid": 0.1432795582032439,
+   "hubness_skew": 2.1766440170989907,
+   "nn_same_source_frac": 0.08838109318606775,
+   "chance_same_source": 0.06110835455078945,
+   "same_source_enrichment": 1.4463013091378676
+  }
+ },
+ "animeva": {
+  "full": {
+   "n": 45994,
+   "misid": 0.025394616689133367,
+   "hubness_skew": 0.9049830009137947,
+   "nn_same_source_frac": 0.16830456146453884,
+   "chance_same_source": 0.06110835455078945,
+   "same_source_enrichment": 2.7541988767616807
+  },
+  "loudnorm": {
+   "n": 45994,
+   "misid": 0.025720746184284906,
+   "hubness_skew": 0.9054719025571205,
+   "nn_same_source_frac": 0.16523894421011437,
+   "chance_same_source": 0.06110835455078945,
+   "same_source_enrichment": 2.704031967883836
+  }
+ },
+ "campp": {
+  "full": {
+   "n": 45994,
+   "misid": 0.08188024524938035,
+   "hubness_skew": 1.8243746132982392,
+   "nn_same_source_frac": 0.11390616167326173,
+   "chance_same_source": 0.06110835455078945,
+   "same_source_enrichment": 1.864003089439923
+  },
+  "loudnorm": {
+   "n": 45994,
+   "misid": 0.0826846980040875,
+   "hubness_skew": 1.8330881723801173,
+   "nn_same_source_frac": 0.11312345088489803,
+   "chance_same_source": 0.06110835455078945,
+   "same_source_enrichment": 1.8511945169604735
+  }
+ },
+ "redimnet": {
+  "full": {
+   "n": 45994,
+   "misid": 0.0779884332739053,
+   "hubness_skew": 1.451174067678397,
+   "nn_same_source_frac": 0.08522850806626951,
+   "chance_same_source": 0.06110835455078945,
+   "same_source_enrichment": 1.3947112255400838
+  },
+  "loudnorm": {
+   "n": 45994,
+   "misid": 0.0785972083315215,
+   "hubness_skew": 1.4807048894663721,
+   "nn_same_source_frac": 0.0848588946384311,
+   "chance_same_source": 0.06110835455078945,
+   "same_source_enrichment": 1.3886627329803436
+  }
+ },
+ "ens_sv4": {
+  "full": {
+   "n": 45994,
+   "misid": 0.018872026786102534,
+   "hubness_skew": 0.9106852446109726,
+   "nn_same_source_frac": 0.1320824455363743,
+   "chance_same_source": 0.06110835455078945,
+   "same_source_enrichment": 2.161446605907145
+  },
+  "loudnorm": {
+   "n": 45994,
+   "misid": 0.018785058920728792,
+   "hubness_skew": 0.9140328655073577,
+   "nn_same_source_frac": 0.1312997347480106,
+   "chance_same_source": 0.06110835455078945,
+   "same_source_enrichment": 2.1486380334276953
+  }
+ }
+}

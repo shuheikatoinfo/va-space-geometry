@@ -1,0 +1,44 @@
+{
+ "agency (4f5c36030d194770 mp3)": {
+  "n": 60,
+  "median_sr": 44100,
+  "median_bandwidth_hz": 7543,
+  "median_snr_proxy_db": 37.7
+ },
+ "agency (1b6f1ef722aea787 mp3)": {
+  "n": 60,
+  "median_sr": 44100,
+  "median_bandwidth_hz": 8832,
+  "median_snr_proxy_db": 57.4
+ },
+ "agency (16b8a0f2e4f90ef4)": {
+  "n": 60,
+  "median_sr": 44100,
+  "median_bandwidth_hz": 7371,
+  "median_snr_proxy_db": 69.1
+ },
+ "freelance youtube": {
+  "n": 44,
+  "median_sr": 48000,
+  "median_bandwidth_hz": 8187,
+  "median_snr_proxy_db": 25.4
+ },
+ "freelance direct": {
+  "n": 53,
+  "median_sr": 44100,
+  "median_bandwidth_hz": 9069,
+  "median_snr_proxy_db": 66.2
+ },
+ "JVS (studio ref)": {
+  "n": 60,
+  "median_sr": 24000,
+  "median_bandwidth_hz": 3847,
+  "median_snr_proxy_db": 48.3
+ },
+ "CommonVoice (crowd)": {
+  "n": 60,
+  "median_sr": 16000,
+  "median_bandwidth_hz": 3859,
+  "median_snr_proxy_db": 24.4
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "animeva": {
+  "model": "animeva",
+  "n_clips": 1327,
+  "n_amateurs": 100,
+  "n_gallery": 1100,
+  "space": "centered",
+  "threshold": 0.45531249046325684,
+  "false_match_per_clip": 0.1650339110776187,
+  "false_match_per_clip_ci95": [
+   0.12356789859667504,
+   0.21096182549562933
+  ],
+  "false_match_per_speaker_ever": 0.59,
+  "mean_collateral_when_flagged": 1.461187214611872,
+  "at_crossfile_threshold": {
+   "threshold": 0.4396246671676636,
+   "false_match_per_clip": 0.23662396382818388,
+   "false_match_per_clip_ci95": [
+    0.18652598594351907,
+    0.29001356114697313
+   ],
+   "false_match_per_speaker_ever": 0.74
+  }
+ },
+ "ecapa": {
+  "model": "ecapa",
+  "n_clips": 1327,
+  "n_amateurs": 100,
+  "n_gallery": 1100,
+  "space": "centered",
+  "threshold": 0.4748010039329529,
+  "false_match_per_clip": 0.33911077618688773,
+  "false_match_per_clip_ci95": [
+   0.2740878673063294,
+   0.41177793456213063
+  ],
+  "false_match_per_speaker_ever": 0.7,
+  "mean_collateral_when_flagged": 3.72,
+  "at_crossfile_threshold": {
+   "threshold": 0.4622148275375366,
+   "false_match_per_clip": 0.4069329314242653,
+   "false_match_per_clip_ci95": [
+    0.3392949802451197,
+    0.4816442889131372
+   ],
+   "false_match_per_speaker_ever": 0.75
+  }
+ }
+}

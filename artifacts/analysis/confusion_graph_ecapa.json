@@ -1,0 +1,71 @@
+{
+ "model": "ecapa",
+ "n_speakers": 1103,
+ "n_edges_pairs": 30525,
+ "indegree_skew": 1.4402965481939818,
+ "indegree_max_over_mean": 4.2686872200721835,
+ "asymmetry_fraction": 0.5635053235053236,
+ "n_communities": 4,
+ "community_sizes_top": [
+  443,
+  378,
+  280,
+  2
+ ],
+ "modularity": 0.46699205590885995,
+ "top_hubs": [
+  {
+   "in_degree": 178,
+   "gender": "male"
+  },
+  {
+   "in_degree": 163,
+   "gender": "male"
+  },
+  {
+   "in_degree": 159,
+   "gender": "female"
+  },
+  {
+   "in_degree": 156,
+   "gender": "unknown"
+  },
+  {
+   "in_degree": 156,
+   "gender": "unknown"
+  },
+  {
+   "in_degree": 151,
+   "gender": "unknown"
+  },
+  {
+   "in_degree": 150,
+   "gender": "unknown"
+  },
+  {
+   "in_degree": 143,
+   "gender": "unknown"
+  },
+  {
+   "in_degree": 143,
+   "gender": "male"
+  },
+  {
+   "in_degree": 140,
+   "gender": "unknown"
+  },
+  {
+   "in_degree": 138,
+   "gender": "unknown"
+  },
+  {
+   "in_degree": 132,
+   "gender": "female"
+  }
+ ],
+ "mean_indegree_by_gender": {
+  "unknown": 43.41085271317829,
+  "female": 38.635245901639344,
+  "male": 40.032710280373834
+ }
+}

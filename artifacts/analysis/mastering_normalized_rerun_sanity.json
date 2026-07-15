@@ -1,0 +1,40 @@
+{
+ "target_lufs": -23.0,
+ "tilt_band_hz": [
+  100.0,
+  7000.0
+ ],
+ "n_segments": 366,
+ "n_speakers": 8,
+ "n_recording_sources": 5,
+ "sanity": true,
+ "speaker_cap": 8,
+ "results": {
+  "ecapa": {
+   "full": {
+    "n": 366,
+    "misid": 0.0273224043715847,
+    "hubness_skew": 0.531780394319285,
+    "nn_same_source_frac": 0.31693989071038253,
+    "chance_same_source": 0.28645856725802826,
+    "same_source_enrichment": 1.1064074422493992
+   },
+   "loudnorm": {
+    "n": 366,
+    "misid": 0.0273224043715847,
+    "hubness_skew": 0.5354114034397565,
+    "nn_same_source_frac": 0.31693989071038253,
+    "chance_same_source": 0.28645856725802826,
+    "same_source_enrichment": 1.1064074422493992
+   },
+   "loud+tilt": {
+    "n": 366,
+    "misid": 0.030054644808743168,
+    "hubness_skew": 0.4861288687289523,
+    "nn_same_source_frac": 0.3087431693989071,
+    "chance_same_source": 0.28645856725802826,
+    "same_source_enrichment": 1.0777934566739837
+   }
+  }
+ }
+}

@@ -1,0 +1,184 @@
+{
+ "n_draws_per_N": 10,
+ "n_grid_requested": [
+  100,
+  200,
+  350,
+  500,
+  750,
+  1000
+ ],
+ "models": {
+  "ecapa": {
+   "model": "ecapa",
+   "n_all_speakers": 1103,
+   "n_grid": [
+    100,
+    200,
+    350,
+    500,
+    750,
+    1000,
+    1103
+   ],
+   "by_N": {
+    "36d1e66a98293d31": {
+     "misid_mean": 0.06968058526605,
+     "misid_std": 0.008479153038332955,
+     "n_draws": 10,
+     "mean_segments": 4148
+    },
+    "6ee5e8f40f02df73": {
+     "misid_mean": 0.09069670588703235,
+     "misid_std": 0.00900522149243991,
+     "n_draws": 10,
+     "mean_segments": 8362
+    },
+    "3616a9e6777c8982": {
+     "misid_mean": 0.10320109903211663,
+     "misid_std": 0.007173906700257777,
+     "n_draws": 10,
+     "mean_segments": 14500
+    },
+    "3cd57d62d710ff26": {
+     "misid_mean": 0.11459919584775509,
+     "misid_std": 0.006034757086554925,
+     "n_draws": 10,
+     "mean_segments": 20810
+    },
+    "00258f7cb4f42cc2": {
+     "misid_mean": 0.12948623552455069,
+     "misid_std": 0.0030444711824215965,
+     "n_draws": 10,
+     "mean_segments": 31395
+    },
+    "d5db831b533df2e6": {
+     "misid_mean": 0.13918169702473931,
+     "misid_std": 0.0010691731553469782,
+     "n_draws": 10,
+     "mean_segments": 41737
+    },
+    "e2bf5e6765a76e66": {
+     "misid_mean": 0.14325781623690045,
+     "misid_std": 0.0,
+     "n_draws": 1,
+     "mean_segments": 45994
+    }
+   }
+  },
+  "animeva": {
+   "model": "animeva",
+   "n_all_speakers": 1103,
+   "n_grid": [
+    100,
+    200,
+    350,
+    500,
+    750,
+    1000,
+    1103
+   ],
+   "by_N": {
+    "36d1e66a98293d31": {
+     "misid_mean": 0.009803158695942489,
+     "misid_std": 0.001742148016299663,
+     "n_draws": 10,
+     "mean_segments": 4148
+    },
+    "6ee5e8f40f02df73": {
+     "misid_mean": 0.013300368617377026,
+     "misid_std": 0.002428669071407339,
+     "n_draws": 10,
+     "mean_segments": 8362
+    },
+    "3616a9e6777c8982": {
+     "misid_mean": 0.01694023883137784,
+     "misid_std": 0.0024049848977179475,
+     "n_draws": 10,
+     "mean_segments": 14500
+    },
+    "3cd57d62d710ff26": {
+     "misid_mean": 0.01757070362135341,
+     "misid_std": 0.001056627868247739,
+     "n_draws": 10,
+     "mean_segments": 20810
+    },
+    "00258f7cb4f42cc2": {
+     "misid_mean": 0.021601277979769497,
+     "misid_std": 0.0014275365797163213,
+     "n_draws": 10,
+     "mean_segments": 31395
+    },
+    "d5db831b533df2e6": {
+     "misid_mean": 0.024634978097035947,
+     "misid_std": 0.0005037027627605341,
+     "n_draws": 10,
+     "mean_segments": 41737
+    },
+    "e2bf5e6765a76e66": {
+     "misid_mean": 0.025394616689133367,
+     "misid_std": 0.0,
+     "n_draws": 1,
+     "mean_segments": 45994
+    }
+   }
+  },
+  "ens_sv4": {
+   "model": "ens_sv4",
+   "n_all_speakers": 1103,
+   "n_grid": [
+    100,
+    200,
+    350,
+    500,
+    750,
+    1000,
+    1103
+   ],
+   "by_N": {
+    "36d1e66a98293d31": {
+     "misid_mean": 0.02074067413994477,
+     "misid_std": 0.0015169917021699763,
+     "n_draws": 10,
+     "mean_segments": 4148
+    },
+    "6ee5e8f40f02df73": {
+     "misid_mean": 0.030665991868125093,
+     "misid_std": 0.0035458902588233815,
+     "n_draws": 10,
+     "mean_segments": 8362
+    },
+    "3616a9e6777c8982": {
+     "misid_mean": 0.03591068351218365,
+     "misid_std": 0.0028575789675159497,
+     "n_draws": 10,
+     "mean_segments": 14500
+    },
+    "3cd57d62d710ff26": {
+     "misid_mean": 0.0382539222976113,
+     "misid_std": 0.0016564419140327536,
+     "n_draws": 10,
+     "mean_segments": 20810
+    },
+    "00258f7cb4f42cc2": {
+     "misid_mean": 0.04494002495557954,
+     "misid_std": 0.0014900339897102799,
+     "n_draws": 10,
+     "mean_segments": 31395
+    },
+    "d5db831b533df2e6": {
+     "misid_mean": 0.04899278817776808,
+     "misid_std": 0.0005755690276254483,
+     "n_draws": 10,
+     "mean_segments": 41737
+    },
+    "e2bf5e6765a76e66": {
+     "misid_mean": 0.05055007174848893,
+     "misid_std": 0.0,
+     "n_draws": 1,
+     "mean_segments": 45994
+    }
+   }
+  }
+ }
+}

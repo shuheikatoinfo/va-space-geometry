@@ -1,0 +1,440 @@
+{
+ "threshold": 0.5,
+ "n_flagged_segments": 13971,
+ "table1_raw_geometry": {
+  "ecapa": {
+   "coverage": {
+    "speakers_full": 1168,
+    "speakers_kept_ge1": 1101,
+    "speakers_kept_ge2": 1101,
+    "speakers_kept_ge8": 1054,
+    "speakers_full_ge2": 1168,
+    "speakers_full_ge8": 1162
+   },
+   "full": {
+    "n_segments": 56568,
+    "n_speakers": 1168,
+    "n_queries": 56568,
+    "rank1": 0.8671156837788149,
+    "misid": 0.13288431622118513,
+    "eer_1n": 0.2742363214492798,
+    "hubness_skew": 2.478498061698236
+   },
+   "bgm_excluded": {
+    "n_segments": 42559,
+    "n_speakers": 1101,
+    "n_queries": 42559,
+    "rank1": 0.8761249089499283,
+    "misid": 0.12387509105007166,
+    "eer_1n": 0.2694377303123474,
+    "hubness_skew": 2.4952276089431886
+   }
+  },
+  "campp": {
+   "coverage": {
+    "speakers_full": 1168,
+    "speakers_kept_ge1": 1101,
+    "speakers_kept_ge2": 1101,
+    "speakers_kept_ge8": 1054,
+    "speakers_full_ge2": 1168,
+    "speakers_full_ge8": 1162
+   },
+   "full": {
+    "n_segments": 56568,
+    "n_speakers": 1168,
+    "n_queries": 56568,
+    "rank1": 0.9259121764955451,
+    "misid": 0.07408782350445482,
+    "eer_1n": 0.18727904558181763,
+    "hubness_skew": 2.1706365997450705
+   },
+   "bgm_excluded": {
+    "n_segments": 42559,
+    "n_speakers": 1101,
+    "n_queries": 42559,
+    "rank1": 0.9268779811555723,
+    "misid": 0.07312201884442773,
+    "eer_1n": 0.18202966451644897,
+    "hubness_skew": 2.2166302478546362
+   }
+  },
+  "redimnet": {
+   "coverage": {
+    "speakers_full": 1168,
+    "speakers_kept_ge1": 1101,
+    "speakers_kept_ge2": 1101,
+    "speakers_kept_ge8": 1054,
+    "speakers_full_ge2": 1168,
+    "speakers_full_ge8": 1162
+   },
+   "full": {
+    "n_segments": 56568,
+    "n_speakers": 1168,
+    "n_queries": 56568,
+    "rank1": 0.925611653231509,
+    "misid": 0.07438834676849101,
+    "eer_1n": 0.17713195085525513,
+    "hubness_skew": 2.1574762695644822
+   },
+   "bgm_excluded": {
+    "n_segments": 42559,
+    "n_speakers": 1101,
+    "n_queries": 42559,
+    "rank1": 0.931107403839376,
+    "misid": 0.06889259616062407,
+    "eer_1n": 0.16974084079265594,
+    "hubness_skew": 2.3542225372022734
+   }
+  },
+  "animeva": {
+   "coverage": {
+    "speakers_full": 1168,
+    "speakers_kept_ge1": 1101,
+    "speakers_kept_ge2": 1101,
+    "speakers_kept_ge8": 1054,
+    "speakers_full_ge2": 1168,
+    "speakers_full_ge8": 1162
+   },
+   "full": {
+    "n_segments": 56568,
+    "n_speakers": 1168,
+    "n_queries": 56568,
+    "rank1": 0.9729882619148635,
+    "misid": 0.02701173808513647,
+    "eer_1n": 0.10417550802230835,
+    "hubness_skew": 2.200369984308832
+   },
+   "bgm_excluded": {
+    "n_segments": 42559,
+    "n_speakers": 1101,
+    "n_queries": 42559,
+    "rank1": 0.9836697290819804,
+    "misid": 0.01633027091801969,
+    "eer_1n": 0.08479993045330048,
+    "hubness_skew": 2.4130905157938556
+   }
+  },
+  "ens_sv4": {
+   "coverage": {
+    "speakers_full": 1168,
+    "speakers_kept_ge1": 1101,
+    "speakers_kept_ge2": 1101,
+    "speakers_kept_ge8": 1054,
+    "speakers_full_ge2": 1168,
+    "speakers_full_ge8": 1162
+   },
+   "full": {
+    "n_segments": 56568,
+    "n_speakers": 1168,
+    "n_queries": 56568,
+    "rank1": 0.9523405458916702,
+    "misid": 0.04649271673030689,
+    "eer_1n": 0.162264883518219,
+    "hubness_skew": 2.3830145787095156
+   },
+   "bgm_excluded": {
+    "n_segments": 42559,
+    "n_speakers": 1101,
+    "n_queries": 42559,
+    "rank1": 0.9550036420028666,
+    "misid": 0.04433844780187504,
+    "eer_1n": 0.1595432162284851,
+    "hubness_skew": 2.5018671713643834
+   }
+  }
+ },
+ "table2_raw_asnorm_codec_matched": {
+  "ecapa": {
+   "coverage": {
+    "speakers_full": 1103,
+    "speakers_kept_ge1": 1036,
+    "speakers_kept_ge2": 1036,
+    "speakers_kept_ge8": 992,
+    "speakers_full_ge2": 1103,
+    "speakers_full_ge8": 1100
+   },
+   "full": {
+    "raw": {
+     "n_segments": 45994,
+     "n_speakers": 1103,
+     "n_queries": 45994,
+     "rank1": 0.8567421837630995,
+     "misid": 0.14325781623690045,
+     "eer_1n": 0.2696438431739807,
+     "hubness_skew": 2.176524525002207
+    },
+    "asnorm": {
+     "n_segments": 45994,
+     "n_speakers": 1103,
+     "n_queries": 45994,
+     "rank1": 0.8738096273426968,
+     "misid": 0.12619037265730312,
+     "eer_1n": 0.15854240953922272,
+     "hubness_skew": 0.8005051501980022
+    }
+   },
+   "bgm_excluded": {
+    "raw": {
+     "n_segments": 31985,
+     "n_speakers": 1036,
+     "n_queries": 31985,
+     "rank1": 0.8587775519774894,
+     "misid": 0.14122244802251055,
+     "eer_1n": 0.26249802112579346,
+     "hubness_skew": 2.047120452597854
+    },
+    "asnorm": {
+     "n_segments": 31985,
+     "n_speakers": 1036,
+     "n_queries": 31985,
+     "rank1": 0.8765984055025793,
+     "misid": 0.12340159449742066,
+     "eer_1n": 0.1539784073829651,
+     "hubness_skew": 0.7994046183576031
+    }
+   }
+  },
+  "campp": {
+   "coverage": {
+    "speakers_full": 1103,
+    "speakers_kept_ge1": 1036,
+    "speakers_kept_ge2": 1036,
+    "speakers_kept_ge8": 992,
+    "speakers_full_ge2": 1103,
+    "speakers_full_ge8": 1100
+   },
+   "full": {
+    "raw": {
+     "n_segments": 45994,
+     "n_speakers": 1103,
+     "n_queries": 45994,
+     "rank1": 0.9181197547506197,
+     "misid": 0.08188024524938035,
+     "eer_1n": 0.18691569566726685,
+     "hubness_skew": 1.8243746132982392
+    },
+    "asnorm": {
+     "n_segments": 45994,
+     "n_speakers": 1103,
+     "n_queries": 45994,
+     "rank1": 0.9333826151237118,
+     "misid": 0.06661738487628821,
+     "eer_1n": 0.10233944654464722,
+     "hubness_skew": 0.7753016438295914
+    }
+   },
+   "bgm_excluded": {
+    "raw": {
+     "n_segments": 31985,
+     "n_speakers": 1036,
+     "n_queries": 31985,
+     "rank1": 0.9128028763482883,
+     "misid": 0.08719712365171174,
+     "eer_1n": 0.18174143135547638,
+     "hubness_skew": 1.8102746317222234
+    },
+    "asnorm": {
+     "n_segments": 31985,
+     "n_speakers": 1036,
+     "n_queries": 31985,
+     "rank1": 0.9287478505549477,
+     "misid": 0.07125214944505237,
+     "eer_1n": 0.10689385235309601,
+     "hubness_skew": 0.808140327173723
+    }
+   }
+  },
+  "redimnet": {
+   "coverage": {
+    "speakers_full": 1103,
+    "speakers_kept_ge1": 1036,
+    "speakers_kept_ge2": 1036,
+    "speakers_kept_ge8": 992,
+    "speakers_full_ge2": 1103,
+    "speakers_full_ge8": 1100
+   },
+   "full": {
+    "raw": {
+     "n_segments": 45994,
+     "n_speakers": 1103,
+     "n_queries": 45994,
+     "rank1": 0.9220115667260947,
+     "misid": 0.0779884332739053,
+     "eer_1n": 0.17334870994091034,
+     "hubness_skew": 1.451174067678397
+    },
+    "asnorm": {
+     "n_segments": 45994,
+     "n_speakers": 1103,
+     "n_queries": 45994,
+     "rank1": 0.9321650650084794,
+     "misid": 0.06783493499152063,
+     "eer_1n": 0.09744749963283539,
+     "hubness_skew": 0.8346506414972362
+    }
+   },
+   "bgm_excluded": {
+    "raw": {
+     "n_segments": 31985,
+     "n_speakers": 1036,
+     "n_queries": 31985,
+     "rank1": 0.9251524151946224,
+     "misid": 0.07484758480537752,
+     "eer_1n": 0.16223227977752686,
+     "hubness_skew": 1.4669891217284752
+    },
+    "asnorm": {
+     "n_segments": 31985,
+     "n_speakers": 1036,
+     "n_queries": 31985,
+     "rank1": 0.9347819290292324,
+     "misid": 0.06521807097076755,
+     "eer_1n": 0.09348130971193314,
+     "hubness_skew": 0.8057344093666231
+    }
+   }
+  },
+  "animeva": {
+   "coverage": {
+    "speakers_full": 1103,
+    "speakers_kept_ge1": 1036,
+    "speakers_kept_ge2": 1036,
+    "speakers_kept_ge8": 992,
+    "speakers_full_ge2": 1103,
+    "speakers_full_ge8": 1100
+   },
+   "full": {
+    "raw": {
+     "n_segments": 45994,
+     "n_speakers": 1103,
+     "n_queries": 45994,
+     "rank1": 0.9746053833108667,
+     "misid": 0.025394616689133367,
+     "eer_1n": 0.10077400505542755,
+     "hubness_skew": 0.9049830009137947
+    },
+    "asnorm": {
+     "n_segments": 45994,
+     "n_speakers": 1103,
+     "n_queries": 45994,
+     "rank1": 0.9781710657911902,
+     "misid": 0.021828934208809846,
+     "eer_1n": 0.03922249376773834,
+     "hubness_skew": 0.8622474560634239
+    }
+   },
+   "bgm_excluded": {
+    "raw": {
+     "n_segments": 31985,
+     "n_speakers": 1036,
+     "n_queries": 31985,
+     "rank1": 0.9874941378771299,
+     "misid": 0.012505862122870096,
+     "eer_1n": 0.07334686815738678,
+     "hubness_skew": 0.8085379903100683
+    },
+    "asnorm": {
+     "n_segments": 31985,
+     "n_speakers": 1036,
+     "n_queries": 31985,
+     "rank1": 0.9894012818508676,
+     "misid": 0.010598718149132406,
+     "eer_1n": 0.02341723069548607,
+     "hubness_skew": 0.8765172920777144
+    }
+   }
+  },
+  "ens_sv4": {
+   "coverage": {
+    "speakers_full": 1103,
+    "speakers_kept_ge1": 1036,
+    "speakers_kept_ge2": 1036,
+    "speakers_kept_ge8": 992,
+    "speakers_full_ge2": 1103,
+    "speakers_full_ge8": 1100
+   },
+   "full": {
+    "raw": {
+     "n_segments": 45994,
+     "n_speakers": 1103,
+     "n_queries": 45994,
+     "rank1": 0.9480367004391878,
+     "misid": 0.05055007174848893,
+     "eer_1n": 0.15575945377349854,
+     "hubness_skew": 1.5709248351415688
+    },
+    "asnorm": {
+     "n_segments": 45994,
+     "n_speakers": 1103,
+     "n_queries": 45994,
+     "rank1": 0.9561681958516328,
+     "misid": 0.04383180414836718,
+     "eer_1n": 0.06937861442565918,
+     "hubness_skew": 1.0680395748732414
+    }
+   },
+   "bgm_excluded": {
+    "raw": {
+     "n_segments": 31985,
+     "n_speakers": 1036,
+     "n_queries": 31985,
+     "rank1": 0.9471314678755667,
+     "misid": 0.052024386431139595,
+     "eer_1n": 0.14850711822509766,
+     "hubness_skew": 1.485572454055611
+    },
+    "asnorm": {
+     "n_segments": 31985,
+     "n_speakers": 1036,
+     "n_queries": 31985,
+     "rank1": 0.956292011880569,
+     "misid": 0.04370798811943098,
+     "eer_1n": 0.06875097751617432,
+     "hubness_skew": 0.7809241936511668
+    }
+   }
+  }
+ },
+ "separability_real_vs_clone": {
+  "ecapa": {
+   "full": {
+    "balanced_acc": 0.8590456126320488,
+    "roc_auc": 0.9379937364644813,
+    "recall_real": 0.8922413793103449,
+    "recall_synth": 0.8244897959183674,
+    "n_clone": 980,
+    "n_real": 464,
+    "n_targets_with_real": 116
+   },
+   "bgm_excluded": {
+    "balanced_acc": 0.8726678468105119,
+    "roc_auc": 0.9404608574540368,
+    "recall_real": 0.8839590443686007,
+    "recall_synth": 0.8571428571428571,
+    "n_clone": 980,
+    "n_real": 293,
+    "n_targets_with_real": 79
+   }
+  },
+  "animeva": {
+   "full": {
+    "balanced_acc": 0.7436507526161782,
+    "roc_auc": 0.832923729546901,
+    "recall_real": 0.8060344827586207,
+    "recall_synth": 0.6806122448979591,
+    "n_clone": 980,
+    "n_real": 464,
+    "n_targets_with_real": 116
+   },
+   "bgm_excluded": {
+    "balanced_acc": 0.8040779460711033,
+    "roc_auc": 0.8857093514254876,
+    "recall_real": 0.78839590443686,
+    "recall_synth": 0.8163265306122449,
+    "n_clone": 980,
+    "n_real": 293,
+    "n_targets_with_real": 79
+   }
+  }
+ }
+}

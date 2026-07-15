@@ -1,0 +1,161 @@
+{
+ "model": "campp",
+ "num_segments": 56568,
+ "embedding_dim": 192,
+ "num_speakers": 1168,
+ "k": 10,
+ "phase3_margin": {
+  "rank1_accuracy": 0.9259121764955451,
+  "verification_margin_mean": 0.11313553154468536,
+  "verification_margin_median": 0.11202779412269592,
+  "verification_margin_std": 0.0885595753788948,
+  "misidentified_fraction": 0.07408782350445482,
+  "critical_fraction_abs_margin": {
+   "<0.005": 0.016334323292320745,
+   "<0.01": 0.03291613633149484,
+   "<0.02": 0.06556710507707537,
+   "<0.05": 0.17852849667656626
+  },
+  "operational_top1_top2_margin_mean": 0.029565488919615746,
+  "top_competing_speaker_pairs": [
+   [
+    "5f781672a3b39eed | 7200dced024be241",
+    128
+   ],
+   [
+    "0e057c83730ad077 | 35a662d159e96a68",
+    13
+   ],
+   [
+    "27fafc6425975b67 | 8ff94242ae5e2ae0",
+    11
+   ],
+   [
+    "4051163a943faf33 | ab21406f59701a94",
+    10
+   ],
+   [
+    "f9ff4ebd0d20565b | db7f3dc7a8a770ae",
+    10
+   ],
+   [
+    "d1c656e0d98b04db | 34b19811921aa33c",
+    9
+   ],
+   [
+    "6ba8c80577140408 | 60fbc35c3b11dcb4",
+    9
+   ],
+   [
+    "ae59b2cfaf33c46b | 5f98cda99da19c64",
+    8
+   ],
+   [
+    "c452c7df6df9b0c5 | 35a662d159e96a68",
+    8
+   ],
+   [
+    "36e188cbc40fb4ea | b00560698e4144bc",
+    7
+   ],
+   [
+    "1f5d347c1c88797a | 3839c922efccc961",
+    7
+   ],
+   [
+    "f44eecb3542193e7 | 0362bcf227244457",
+    7
+   ],
+   [
+    "daef7f6d2a985fbc | ba54ea3964884315",
+    7
+   ],
+   [
+    "7634533c37806da8 | ab21406f59701a94",
+    7
+   ],
+   [
+    "3cd57d62d710ff26 | 5f1378afd1b92204",
+    7
+   ],
+   [
+    "370b15918a54fe8e | f9ff4ebd0d20565b",
+    7
+   ],
+   [
+    "be5c59956b5ddb97 | 7634533c37806da8",
+    6
+   ],
+   [
+    "6153feedb628a494 | b00560698e4144bc",
+    6
+   ],
+   [
+    "c081f816e413f7b5 | 1aed63adb70cd496",
+    6
+   ],
+   [
+    "cdc83bbfa7890602 | db7f3dc7a8a770ae",
+    6
+   ],
+   [
+    "f0bab60c5dfa90e2 | ab21406f59701a94",
+    6
+   ],
+   [
+    "4028bc0bbaa13011 | 24063bcbc9833984",
+    6
+   ],
+   [
+    "614f97a73b6b5c2a | 86765fb9fd5abff5",
+    6
+   ],
+   [
+    "861d89e3822a2c56 | 3cd57d62d710ff26",
+    6
+   ],
+   [
+    "f11135c529622174 | f2690d23f283d204",
+    6
+   ],
+   [
+    "5f781672a3b39eed | 68476bcae99bd01f",
+    6
+   ],
+   [
+    "83defcd39a6e33b6 | 47bafefc12b05d48",
+    6
+   ],
+   [
+    "12c8d3f80ff2f6e0 | bf69fe4ae10e43e4",
+    5
+   ],
+   [
+    "6153feedb628a494 | 443f98f293cf1a46",
+    5
+   ],
+   [
+    "29fe7f914b48586b | 17acc1183ceffb54",
+    5
+   ]
+  ]
+ },
+ "channel_confound": {
+  "num_recording_sources": 70,
+  "nearest_impostor_same_source_fraction": 0.12895983594965352,
+  "chance_same_source_fraction": 0.06425072874623476,
+  "same_source_enrichment": 2.007134214134666,
+  "critical_queries_same_source_fraction": 0.11803148826616497,
+  "margin_mean_when_impostor_same_source": 0.12701115012168884,
+  "margin_mean_when_impostor_diff_source": 0.11108119785785675
+ },
+ "phase4_geometry": {
+  "knn_density_skewness": 0.22629396957128253,
+  "nn_distance_skewness": 0.1340015773246529,
+  "hubness_skewness": 2.1706365997450705,
+  "hubness_skewness_pvalue": 0.0,
+  "hub_count": 2171,
+  "antihub_count": 959,
+  "antihub_fraction": 0.016953047659454108
+ }
+}
