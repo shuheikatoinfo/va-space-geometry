@@ -20,12 +20,19 @@ operating point.
 
 ## What this repository contains (release Stage 1)
 
-The **full, data-independent analysis pipeline**: gallery construction,
-hubness / rank-1 misID / EER computation, the back-end suite
-(LDA / WCCN / PLDA, EM refit, nonlinear re-rankers), every clone probe and
-confound control, and the figure generators. These modules run on **any
-embedding set conforming to the `.npz` format below** and do not require the
-voice-actor corpus.
+The **analysis pipeline**: gallery construction, hubness / rank-1 misID / EER
+computation, the back-end suite (LDA / WCCN / PLDA, EM refit, nonlinear
+re-rankers), the clone probes and confound controls, and the figure generators.
+
+The **core geometry and back-end suite are data-independent** and run on **any
+embedding set conforming to the `.npz` format below**, without the voice-actor
+corpus. The **clone probes, demographic and session-disjoint analyses, and
+audio-based controls additionally require withheld inputs**: the segment-level
+metadata (`data/processed/segments.jsonl` — segment paths and `source_sha256`),
+per-speaker registry fields (`data/registry/speakers.jsonl` — e.g. gender,
+credits), and, for the clone and codec/BGM controls, the corresponding audio.
+Those inputs are part of the withheld tier (below), available to
+reviewers/replicators on request.
 
 Consistent with the paper's ethics section, this repository ships **no audio,
 no scrapers, and no per-speaker artifacts**:
