@@ -119,6 +119,46 @@ python -m src.learned_fusion
 python -m src.fairness_analysis
 ```
 
+## Model and system versions
+
+Exact source IDs and revisions of every speaker encoder and clone/TTS system used
+to produce the reported results (recorded from the working trees and model
+caches). Python dependency versions are pinned in [`requirements.txt`](requirements.txt).
+
+**Speaker encoders**
+
+| Encoder | Source | Revision / checkpoint |
+|---|---|---|
+| x-vector | HF `speechbrain/spkrec-xvect-voxceleb` | `56895a2df401be4150a159f3a1c653f00051d477` |
+| ECAPA-TDNN | HF `speechbrain/spkrec-ecapa-voxceleb` | `0f99f2d0ebe89ac095bcc5903c4dd8f72b367286` |
+| WavLM-base-plus-sv | HF `microsoft/wavlm-base-plus-sv` | `feb593a6c23c1cc3d9510425c29b0a14d2b07b1e` |
+| CAM++ | ModelScope `iic/speech_campplus_sv_zh-cn_16k-common` | `v2.0.2` |
+| ReDimNet-b2 | torch.hub `IDRnD/ReDimNet` (`model_name=b2, train_type=ptn`) | ckpt `b2-vox2-ptn.pt` |
+| JP-HuBERT (layer-mean) | HF `reazon-research/japanese-hubert-base-k2` | `a9f26026165f8b80256f0aeecee53dedf81abce1` |
+| jxvector | torch.hub `sarulab-speech/xvector_jtubespeech` | ckpt `xvector.pth` |
+| animeva | `litagin/anime_speaker_embedding` (pip package `anime_speaker_embedding`) | current litagin release (not version-pinned) |
+
+Ensembles are embedding-level fusions of the above: **SV-4** = {x-vector,
+ECAPA-TDNN, CAM++, ReDimNet-b2}; **all-6** = {x-vector, ECAPA-TDNN, WavLM, CAM++,
+ReDimNet-b2, JP-HuBERT}. The torch.hub encoders load from the repository default
+branch; the checkpoint filename pins the weights.
+
+**Clone / TTS systems and copy-synthesis control**
+
+| System | Source | Revision |
+|---|---|---|
+| GPT-SoVITS (v1–v4, v2ProPlus runs) | github.com/RVC-Boss/GPT-SoVITS | commit `bf81cdb14a38b674b6e9996dabc97340bc9978d2` (2026-06-20) |
+| Seed-VC v2 | github.com/Plachtaa/seed-vc | commit `51383efd921027683c89e5348211d93ff12ac2a8` (2025-04-20); default v2 AR/CFM checkpoints, 30 diffusion steps |
+| Irodori-TTS (inference repo) | github.com/Aratako/Irodori-TTS | commit `eaf74d6a19138f743acb5b71a445fd25a57db987` (2026-06-04) |
+| Irodori-TTS-500M-v3 | HF `Aratako/Irodori-TTS-500M-v3` | `236c1e56591279fc24e3c1bf6609fc06e48dde28` |
+| Irodori-TTS-600M-v3-VoiceDesign | HF `Aratako/Irodori-TTS-600M-v3-VoiceDesign` | `e863a3a93e652e09afeff3e84823a206a0a60314` |
+| Semantic-DACVAE-Japanese-32dim (Irodori codec) | HF `Aratako/Semantic-DACVAE-Japanese-32dim` | `47376ee24834d7a05a48ebabfe3cde29b3c5e214` |
+| BigVGAN v2 22 kHz 80-band (copy-synthesis control) | HF `nvidia/bigvgan_v2_22khz_80band_256x` | `633ff708ed5b74903e86ff1298cf4a98e921c513` |
+
+GPT-SoVITS pretrained weight pairs per version — v1: `s1bert25hz-2kh-…ckpt` +
+`s2G488k.pth`; v2: `…5kh-…ckpt` + `s2G2333k.pth`; v3: `s1v3.ckpt` + `s2Gv3.pth`;
+v4: `s1v3.ckpt` + `s2Gv4.pth`; v2ProPlus: `s1v3.ckpt` + `s2Gv2ProPlus.pth`.
+
 ## Archival and citation
 
 A citable snapshot of this repository is archived on Zenodo with a permanent DOI:
