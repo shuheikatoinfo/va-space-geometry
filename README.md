@@ -116,8 +116,10 @@ python -m src.fairness_analysis
 
 A citable snapshot of this repository is archived on Zenodo with a permanent DOI:
 
-> **DOI:** `10.5281/zenodo.XXXXXXX` — reserved; assigned to the first archived
-> release. Please cite both the paper and this record (see [`CITATION.cff`](CITATION.cff)).
+> **Concept DOI (all versions):** [`10.5281/zenodo.21368121`](https://doi.org/10.5281/zenodo.21368121)
+> — always resolves to the latest archived version; cite this for the software in general.
+> **This version (v1.0.0):** [`10.5281/zenodo.21368122`](https://doi.org/10.5281/zenodo.21368122).
+> Please cite both the paper and this record (see [`CITATION.cff`](CITATION.cff)).
 
 Zenodo snapshots are **immutable**: a published version cannot be altered after
 the fact. Corrections and removals are applied to the live repository and to all

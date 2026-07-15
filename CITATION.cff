@@ -10,4 +10,11 @@ authors:
 repository-code: "https://github.com/shuheikatoinfo/va-space-geometry"
 license: MIT
 version: "1.0.0"
-doi: "10.5281/zenodo.XXXXXXX"  # reserved; assigned to the first archived Zenodo release
+doi: "10.5281/zenodo.21368121"  # concept DOI (all versions; resolves to latest)
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21368121"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.21368122"
+    description: "Version DOI (v1.0.0)"
